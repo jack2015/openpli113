@@ -117,9 +117,9 @@ Recommends: freetype-dbg, glibc-dbg, libgcc-dbg, libjpeg-turbo-dbg, libpng-dbg, 
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4889acb56382a93ad57ba61fed27384a
-SHA256sum: beeaf1a4bf63ae5e404eb4e7b6f0c971962a6832118ebb474232eca91a7f7b9d
-Size: 3939150
+MD5Sum: 5f5a655229c9bc908d68bcceaaa8ee2a
+SHA256sum: 0416c1020ab07a24fc076ef96b1e4e0769c90b22ca891023294a85b7cbcd7bc6
+Size: 3939334
 Filename: directfb-dbg_1.7.7-r0_dm800se.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device - Debugging files
@@ -164,13 +164,13 @@ Priority: optional
 
 Package: directfb
 Version: 1.7.7-r0
-Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.1), libgcc1 (>= 11.3.0), libjpeg62 (>= 2.1.3), libpng16-16 (>= 1.6.37), libstdc++6 (>= 11.3.0), libz1 (>= 1.2.11)
+Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.0), libgcc1 (>= 11.3.0), libjpeg62 (>= 2.1.3), libpng16-16 (>= 1.6.37), libstdc++6 (>= 11.3.0), libz1 (>= 1.2.11)
 Section: libs
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 04aa4ea06dc25a76f94f47cf8508e66c
-SHA256sum: a27bc85615fa14851e8abcd514d341fc7d217a2511ec63877d837ed14a30962a
-Size: 784626
+MD5Sum: c62c7462b72c68fd67b67cde8190b5ac
+SHA256sum: 5bc5fa54da65102e93f1aac46655ccb1275caac38a78b0b1f8e2f45b1170c8ea
+Size: 784560
 Filename: directfb_1.7.7-r0_dm800se.ipk
 Source: directfb_1.7.7.bb
 Description: Graphics abstraction library for the Linux Framebuffer Device
@@ -297,9 +297,9 @@ Depends: dreambox-secondstage-dm800se, kernel-3.2-dm800se, kernel-module-stv0299
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 28f1e09b9664bf09a690de4f79e4667d
-SHA256sum: 1774a8d951feb8be722826f40c7cd0be4235b7ca00889ff925ae9d6ef33f684f
-Size: 2175138
+MD5Sum: c21d58638c0373f26912a3bebed3786d
+SHA256sum: 11809d9a152d5bc43d46f0021182bb7833e71b284fa223b1309e90c56b140cf6
+Size: 2175554
 Filename: dreambox-dvb-modules-dm800se_3.2-20151201-r0_dm800se.ipk
 Source: dreambox-dvb-modules-dm800se_3.2-20151201.bb
 Description: Hardware drivers for Dreambox
@@ -313,9 +313,9 @@ Depends: mtd-utils
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 51866017d9a927bc6bc78a438ddfc6a6
-SHA256sum: e9b1f5f4ff822dd64801c4e49186f52bf7cee70693ce7f2194a8ef9899dd3963
-Size: 187056
+MD5Sum: dcd26427ce748d6f5756d98e7290d48f
+SHA256sum: d0bd6326384ecf5fe4b8ab635588d80eac1512b9f91c60f17a48cd2f08188c52
+Size: 155340
 Filename: dreambox-secondstage-dm800se_84-r0_dm800se.ipk
 Source: dreambox-secondstage-dm800se_84.bb
 Description: Dreambox second stage bootloader
@@ -329,8 +329,8 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c3eb03e2bc2999c808e9b23e806ad61c
-SHA256sum: 2a11ca62db0591ff6341f34dad76684e3634c7c47abb49085737a8637c58b6fe
+MD5Sum: 6b2a50c1453d6197b6f61f9dcb70f76b
+SHA256sum: b501b8a27c789273c2f840c1079b07599b1a714365c7a7e8822e4722d3a5dd08
 Size: 788
 Filename: enigma2-plugin-extensions-openmultiboot-dbg_1.0+git129+8f2c0f1-r0_dm800se.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
@@ -347,8 +347,8 @@ Recommends: glibc-dev, libgcc-dev, libstdc++-dev, mtd-utils-dev, mtd-utils-ubifs
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6e43be2865a7552dad0c0a55805bc3f7
-SHA256sum: 6a588eb5a16f65e9c26e9d753affc24b8b20a7902c5e85b0e21fc59336a0ba1c
+MD5Sum: 38124ffc2e584cabe846ffe309c95ecd
+SHA256sum: 093f38f58d20a236c73e2a3b8ec722e035060654456c937707aa6fa2d511a765
 Size: 854
 Filename: enigma2-plugin-extensions-openmultiboot-dev_1.0+git129+8f2c0f1-r0_dm800se.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
@@ -365,9 +365,9 @@ Recommends: kernel-module-block2mtd, kernel-module-nandsim
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b3580f908af6eb596b2acca3e0d57005
-SHA256sum: bd4ab131f8cef0769582527b197120061382416872b44e4eeb94dddce64febca
-Size: 102560
+MD5Sum: 57dfd177b3e42187dd4d1f29399b1f56
+SHA256sum: fcd8c437ce53f3568d41e0e9c21015be60326c651c39ad060c83c098478515af
+Size: 102528
 Filename: enigma2-plugin-extensions-openmultiboot_1.0+git129+8f2c0f1-r0_dm800se.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: enigma2-plugin-extensions-openmultiboot version 1.0+gitAUTOINC+8f2c0f111b-r0
@@ -1043,9 +1043,9 @@ Recommends: gstplayer
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 31553c05ddd17e4826b56d7961b2f23b
-SHA256sum: 4c82bcb00f735c6498a451796f6cff8e0a702b506e7e9fce40220de5711ea80e
-Size: 92916
+MD5Sum: d318259767027e4556be43b8c5f318d7
+SHA256sum: 5d3c770f34608d6d2da4277f8a8fc5d12567a8501924147ad9cc1a4f2c9d2b81
+Size: 92828
 Filename: enigma2-plugin-systemplugins-serviceapp_git170+251520b-r0_dm800se.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+251520b687-r0
@@ -1094,8 +1094,8 @@ Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-b
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5985f9d90a58f0a0254af436d5a062b4
-SHA256sum: 2a3d923e0de1aeafd7798dbe2174cfefebada9df334d31da40dc5e308e6a3ac1
+MD5Sum: a33bf9a5e94883fd144e3a4e92f67c28
+SHA256sum: 4e5a57d4342b2ce8365322e1d37b912e24d20d1380ed81ba4b35c3ff25d2b6c2
 Size: 44360
 Filename: enigma2-plugin-systemplugins-servicemp3_git40+aa60f9a-r0_dm800se.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb
@@ -12353,9 +12353,9 @@ Recommends: freetype-dbg, glibc-dbg, zlib-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6bb6ed397390722c098918c23a0f44b0
-SHA256sum: dd5c4f3b7e3c322d000796f2a4e4ce9f4a9cf9b664983d5a1f09c59c0213adff
-Size: 102248
+MD5Sum: 11b4484953df411fb85c67224be09cfc
+SHA256sum: 7df3efb13f63e50aeedef8ceaf2fd24da0ccb743a48da3d3a0bb775d721063c9
+Size: 102240
 Filename: libtuxtxt-dbg_2.0+git82+1402795-r0_dm800se.ipk
 Source: libtuxtxt.bb
 Description: tuxbox libtuxtxt - Debugging files
@@ -12382,14 +12382,14 @@ Priority: optional
 
 Package: libtuxtxt0
 Version: 2.0+git82+1402795-r0
-Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.1), libz1 (>= 1.2.11)
+Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.0), libz1 (>= 1.2.11)
 Provides: libtuxtxt
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 16e632572078c5c9eaa1dbeecf6d4b51
-SHA256sum: 56bf48f72ef96c722eef9f0e76a09cee16c84dec6a4d8d2d11c1c6f84188bf76
-Size: 33656
+MD5Sum: 05612cd21ea4d5133108a11f72eaca59
+SHA256sum: e897a3dd42d1048a25d43414016a159fb7fb3db70ece1b241d1dc89e2c7926d7
+Size: 33644
 Filename: libtuxtxt0_2.0+git82+1402795-r0_dm800se.ipk
 Source: libtuxtxt.bb
 Description: tuxbox libtuxtxt
@@ -12404,9 +12404,9 @@ Recommends: freetype-dbg, glibc-dbg, libtuxtxt-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6f9a8606a1b040314a9975e8e741d1ad
-SHA256sum: 2b2e49fddd105a5243a0d9c0eb4cc4ead535184fb8a0cd5c355de923d656ef90
-Size: 27896
+MD5Sum: 7c4e2878ff9acafdad58ffc7f7190d24
+SHA256sum: ac485d4119a67ae423af16b59b0dc0a217f39fdb5243ab808d52729f5b72bdb1
+Size: 27892
 Filename: libtuxtxt32bpp-dbg_2.0+git82+1402795-r3_dm800se.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt 32bit framebuffer for enigma2 - Debugging files
@@ -12450,14 +12450,14 @@ Priority: optional
 
 Package: libtuxtxt32bpp0
 Version: 2.0+git82+1402795-r3
-Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.1), libtuxtxt0 (>= 2.0+git82+1402795)
+Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.0), libtuxtxt0 (>= 2.0+git82+1402795)
 Provides: tuxtxt-enigma2
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1eb93dc3145975c59cde071468bbb6e1
-SHA256sum: 8a766d99cb8643490ff31d2e32f132e14dae634906f077e18f9b285dceb2929a
-Size: 78050
+MD5Sum: e4b2d181748b03bcd3de3319d8aeb7a9
+SHA256sum: b9d6da1d2b2d0ceb94627b8e99e355bac18d84c0eb7e2b89ebacc8c8a4e78cf7
+Size: 78046
 Filename: libtuxtxt32bpp0_2.0+git82+1402795-r3_dm800se.ipk
 Source: tuxtxt-enigma2.bb
 Description: tuxbox tuxtxt 32bit framebuffer for enigma2
@@ -12605,9 +12605,9 @@ Recommends: freetype-dbg, glibc-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: oe-alliance
-MD5Sum: 5dd6c278d50d6bfc5a9474c6894cb5cb
-SHA256sum: 3ebde219fe15dd786428bb4d3a17689049f744f3f3ac0edd69e430fad62e2601
-Size: 82336
+MD5Sum: db06c6a02571b13cd9ec0cf79fb5bd7f
+SHA256sum: 9a0afe1c2edb66b927e1240f171b64e3a94636609742388cb21e83d4628a94df
+Size: 82352
 Filename: openmultiboot-dbg_1.3+git110+315c094-r0_dm800se.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2 - Debugging files
@@ -12634,13 +12634,13 @@ Priority: optional
 
 Package: openmultiboot
 Version: 1.3+git110+315c094-r0
-Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.1)
+Depends: libc6 (>= 2.35), libfreetype6 (>= 2.11.0)
 Section: base
 Architecture: dm800se
 Maintainer: oe-alliance
-MD5Sum: 9f7ed148f7a8eae8a950e47698a317d0
-SHA256sum: 4bc4402d49db42b9d5d394c2f1693237578a7a5971159c7155c09873e875e7f9
-Size: 36350
+MD5Sum: d4017298c5ec04a5d9539abbe70706b5
+SHA256sum: bc899224e801acb0cf691122d12a752c789353a777dd618a5359a99633b5ef70
+Size: 36366
 Filename: openmultiboot_1.3+git110+315c094-r0_dm800se.ipk
 Source: openmultiboot.bb
 Description: Multi boot loader for enigma2

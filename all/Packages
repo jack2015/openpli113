@@ -1771,8 +1771,8 @@ Version: 1+git3807+b6875f0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e7b877f7f9f2e2daa85f8cd56498483f
-SHA256sum: 892c5b333e0d13a88718e9d8fddba1e1f82da7ece3196ff52161be42fd31a458
+MD5Sum: 2c152ea3240ed0586ba8b4268da79254
+SHA256sum: aa3dac2b5032ce328b594e5ce2b9925cbc21d889f39898727f8581d6dc758ab3
 Size: 726
 Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
@@ -1789,9 +1789,9 @@ Recommends: cmdwrapper-dev, duktape-dev, exteplayer3-dev, f4mdump-dev, ffmpeg-de
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c411a5fcf125c21352b202d0d467f52a
-SHA256sum: bae2b62f5f6d6ce9113f41de6cbdd4eb98cd19c91ca00f0545edf3ed800e9f3d
-Size: 868
+MD5Sum: 60f948fe7027abcd3ec51c3be32ef461
+SHA256sum: 193ec4af2afd12a0c61a0bdd874d0cd7f6f2b5c905e487f6b3f47765e66b1a76
+Size: 866
 Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
@@ -1805,9 +1805,9 @@ Version: 1+git3807+b6875f0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ad3e5183dd0b33687f6edabb27742730
-SHA256sum: 0fb7ffd41ba318ba1b49db9504bc7b33f3d987cd851e58f176ccca7a0d12722e
-Size: 793338
+MD5Sum: 9dc96e8ad81c4ad1f5eb2a89893a1cc1
+SHA256sum: 019af90f1fded8e5e390ba1ec33d74c0d349559b14c68dbb6354fe24504c359c
+Size: 793262
 Filename: enigma2-plugin-extensions-e2iplayer-src_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Source files
@@ -1822,9 +1822,9 @@ Depends: cmdwrapper, duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplaye
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 298bfe494735c13915705071971881dd
-SHA256sum: 11937038d8d05e2cfa5835302f8824d55784af7fbb83120d4092485794852881
-Size: 3777178
+MD5Sum: 2d4d1b654bdbb3c5db8094a8af8e8344
+SHA256sum: bb46a403259c9c9e6c1e11e4c035a0c72d546eb5658b94435a503d048b7962bb
+Size: 3776934
 Filename: enigma2-plugin-extensions-e2iplayer_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
@@ -1988,8 +1988,8 @@ Version: 3.58+git298+739d4bc-r0
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: d86e8dd05a116f4a6317d033f7e6f01d
-SHA256sum: cd05f8de3c1951d15ec822e9213fdf6de12edbc63216d266de24048c0ac6ca85
+MD5Sum: 7d9782db8fa0835728b3f7c0836a49f8
+SHA256sum: e1b75225949177e165ede7222cbcdd51b36e1290ef76a9dc1229c4308732218b
 Size: 720
 Filename: enigma2-plugin-extensions-xstreamity-dbg_3.58+git298+739d4bc-r0_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
@@ -2006,9 +2006,9 @@ Recommends: python-argparse-dev, python-image-dev, python-imaging-dev, python-lz
 Section: devel
 Architecture: all
 Maintainer: kiddac
-MD5Sum: 257661d111836046e0e720065282df2b
-SHA256sum: 78789872cad5e15d4da75802dab9dc51bfd72105d55d803f14344d97acb2bf09
-Size: 808
+MD5Sum: 1269b2f7ef24ee16d5012e3daa13f4b8
+SHA256sum: 563a6d8d9dd159fea781db6acebbf9ab5a883a6e561280a8bf36527fd9c9469a
+Size: 810
 Filename: enigma2-plugin-extensions-xstreamity-dev_3.58+git298+739d4bc-r0_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC - Development files
@@ -2023,9 +2023,9 @@ Depends: python-argparse, python-image, python-imaging, python-lzma, python-mult
 Section: base
 Architecture: all
 Maintainer: kiddac
-MD5Sum: ab00ecc57723c5aaefe95e96e03b13a1
-SHA256sum: 8379571c6ed9a95f3565b346de369d6f7ec1111879cb1da7a4ef22399b19a360
-Size: 1880472
+MD5Sum: 6943ffcdca9375bc0e45d291ebc0fe8f
+SHA256sum: c4d38e2eeb481718ca5a663f7fc3afda94887a6c853fcb170a340849efa275fc
+Size: 1880548
 Filename: enigma2-plugin-extensions-xstreamity_3.58+git298+739d4bc-r0_all.ipk
 Source: enigma2-plugin-extensions-xstreamity.bb
 Description: IPTV Xtream Codes playlists player by KiddaC
