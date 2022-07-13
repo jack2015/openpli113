@@ -360,9 +360,9 @@ Version: 1.0+git129+8f2c0f1-r0
 Section: devel
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 91cff5bb32132e657d6df81a28576829
-SHA256sum: 97ad7293660e036a11c59e64ac59cfd49d5d70d36bb084ad43a74f1e1eadeef6
-Size: 760
+MD5Sum: 1e62b4a624cb740dffe255f19661ec4e
+SHA256sum: 5d5f6e1a95d6996bc0893f06d90779884bfa4da5c91704970a14f6d476d8d8e1
+Size: 758
 Filename: enigma2-plugin-extensions-openmultiboot-dbg_1.0+git129+8f2c0f1-r0_dm900.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
 Description: enigma2-plugin-extensions-openmultiboot version 1.0+gitAUTOINC+8f2c0f111b-r0 - Debugging files
@@ -378,8 +378,8 @@ Recommends: mtd-utils-dev, mtd-utils-ubifs-dev, openmultiboot-dev, python-core-d
 Section: devel
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 43669954cc1df693e86f5bb2ca0c5a8e
-SHA256sum: 80c61437fb6477ca744bcd4b51a139a6397965ba76b2b47a56cbfb40f669dcb6
+MD5Sum: 0344aadd27ecb1be16e3f0b03da73364
+SHA256sum: 49bae1eeef902cbab68ee19f0ae41580067dd29da310cdfc9af908fa9774f3ae
 Size: 836
 Filename: enigma2-plugin-extensions-openmultiboot-dev_1.0+git129+8f2c0f1-r0_dm900.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
@@ -396,8 +396,8 @@ Recommends: kernel-module-block2mtd, kernel-module-nandsim
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 431885d5b2516e7be31548813acf356a
-SHA256sum: 7e0d80d7af76efab07bc13931084d033a929ff670b4f4a1b9285e63cfa597990
+MD5Sum: bbcd8255b595a427911d14f1d0ee0798
+SHA256sum: 66a0372edb4a3aaeabb6d63e204565dc5ac59faa97089741d86a4863b53d3266
 Size: 56282
 Filename: enigma2-plugin-extensions-openmultiboot_1.0+git129+8f2c0f1-r0_dm900.ipk
 Source: enigma2-plugin-extensions-openmultiboot.bb
@@ -408,14 +408,14 @@ License: PD
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dbg
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Section: devel
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: a4cd4889f6507b38c2c4f7890cca300b
-SHA256sum: d89bb19debe7671b4882cfaec3c2618c9375000f5b6953636be80ca4ad632dac
+MD5Sum: a78e307904e903be5715d5f121c58ec9
+SHA256sum: 2b6e2cc2919715288a7c1c3ff4708628852461466a9e175f00402a06237d34a7
 Size: 690
-Filename: enigma2-plugin-extensions-openwebif-dbg_1.5.2-15-gd8b923e0-r0_dm900.ipk
+Filename: enigma2-plugin-extensions-openwebif-dbg_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser - Debugging files
 OE: enigma2-plugin-extensions-openwebif
@@ -423,16 +423,16 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-dev
-Version: 1.5.2-15-gd8b923e0-r0
-Depends: enigma2-plugin-extensions-openwebif (= 1.5.2-15-gd8b923e0-r0)
+Version: 1.5.2-15-gd8b923e0-r8
+Depends: enigma2-plugin-extensions-openwebif (= 1.5.2-15-gd8b923e0-r8)
 Recommends: aio-grab-dev, python-cheetah-dev, python-compression-dev, python-core-dev, python-dev, python-ipaddress-dev, python-json-dev, python-misc-dev, python-numbers-dev, python-pprint-dev, python-pyopenssl-dev, python-shell-dev, python-six-dev, python-twisted-web-dev, python-unixadmin-dev, shellinabox-dev
 Section: devel
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: ddf2d0fc363bddf4bf42b335023956fc
-SHA256sum: cf44076e3458b70db5dca65780d399d2d1eea74e1575adc12f0221d37611de5e
+MD5Sum: a4542261784a72236999bf8d6e2d55e9
+SHA256sum: 615029831f0af3be2fda4a16c60f5977f6e2ef49d5c6a42aef261d5b7fb50b32
 Size: 832
-Filename: enigma2-plugin-extensions-openwebif-dev_1.5.2-15-gd8b923e0-r0_dm900.ipk
+Filename: enigma2-plugin-extensions-openwebif-dev_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser - Development files
 OE: enigma2-plugin-extensions-openwebif
@@ -440,15 +440,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-src
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: enigma2-plugin-extensions-openwebif
 Section: devel
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 927427f0ac1fca781167390ddcb16a17
-SHA256sum: 96bce4ff70fdcc25b94c8a5327ac242ea184a97f8b96307593e72bfbe067d5c8
-Size: 249252
-Filename: enigma2-plugin-extensions-openwebif-src_1.5.2-15-gd8b923e0-r0_dm900.ipk
+MD5Sum: b79d15c3c392140d1d4b4798455f0fff
+SHA256sum: efab009708d6c54829f4d3332bc1a1ea617dad65e5134b56de947aa840a4b304
+Size: 249284
+Filename: enigma2-plugin-extensions-openwebif-src_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser - Source files
 OE: enigma2-plugin-extensions-openwebif
@@ -456,15 +456,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-terminal
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: enigma2-plugin-extensions-openwebif, shellinabox
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: ff3e470645885820765077857b0b8031
-SHA256sum: b4a2600b96286ef1af3ca594adaaccc905e1660f11cd740057f5d16fd141a657
+MD5Sum: ca4cc7cee1b06e1e4a6442fc048c654e
+SHA256sum: 357f1210aae3b0d496f39bb9c47b8adb8f88837ca813d6d1ffdd3b5775d98381
 Size: 646
-Filename: enigma2-plugin-extensions-openwebif-terminal_1.5.2-15-gd8b923e0-r0_dm900.ipk
+Filename: enigma2-plugin-extensions-openwebif-terminal_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
@@ -472,15 +472,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-themes
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 9fd3a88a2581584d2c96e2b3929d0b96
-SHA256sum: bf635d0e5b3fda1290909ffdc10c0e5755923fdbdfc37e6a1512c7710ef52652
+MD5Sum: f606f227ed40032beca1255a3c5c51c2
+SHA256sum: 00ff1dfd073c6ff605a014a0e591990476fdedf7c35d0974f179ab2d9bebc436
 Size: 319042
-Filename: enigma2-plugin-extensions-openwebif-themes_1.5.2-15-gd8b923e0-r0_dm900.ipk
+Filename: enigma2-plugin-extensions-openwebif-themes_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
@@ -488,15 +488,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-vxg
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: 01f5ada211decdb7a4d8cc0c1e8d41cb
-SHA256sum: e0075aa9e0379dd1ed87bc7161ec2a7be95ced0378ff620bebe2c84cb7c7f713
+MD5Sum: 424bb6b8146052babb6e0d9f8ad7482d
+SHA256sum: a761d1f71db39c52d5c8baf67d082f2e4d5fb0ef64b3d9d1970322ceef9f4ae0
 Size: 1232190
-Filename: enigma2-plugin-extensions-openwebif-vxg_1.5.2-15-gd8b923e0-r0_dm900.ipk
+Filename: enigma2-plugin-extensions-openwebif-vxg_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
@@ -504,15 +504,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif-webtv
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: enigma2-plugin-extensions-openwebif
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: d6c821e606716b6149d578705eea87ef
-SHA256sum: fed232f74ca317e75eee3a5138b02cfdd11a15c4d69c5b4c76fb404cdf6919d5
-Size: 4092
-Filename: enigma2-plugin-extensions-openwebif-webtv_1.5.2-15-gd8b923e0-r0_dm900.ipk
+MD5Sum: 6f9a0aa1d4197c906ff33975bf85778b
+SHA256sum: aeec4ef4518101cdc79e5d5aa941e3fd274b77144328c6df219becea38c9e5d7
+Size: 4094
+Filename: enigma2-plugin-extensions-openwebif-webtv_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
@@ -520,15 +520,15 @@ License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-extensions-openwebif
-Version: 1.5.2-15-gd8b923e0-r0
+Version: 1.5.2-15-gd8b923e0-r8
 Depends: aio-grab, python-cheetah, python-compression, python-core, python-ipaddress, python-json, python-misc, python-numbers, python-pprint, python-pyopenssl, python-shell, python-six, python-twisted-web, python-unixadmin
 Section: base
 Architecture: dm900
 Maintainer: Openpli Developers
-MD5Sum: fbc833135c82f995738f4b1fb9ac00fe
-SHA256sum: 7e7e347fa30a4146c74abd42b1e6538bb0912c796118ce0b109b845969b2845f
-Size: 1483576
-Filename: enigma2-plugin-extensions-openwebif_1.5.2-15-gd8b923e0-r0_dm900.ipk
+MD5Sum: 6b4af67f124a85632b54db4af377f702
+SHA256sum: 62be36992ed7c15bf1f97c27696386c41ed6f97a4dfc89bc5a939ea2860a6d82
+Size: 1483732
+Filename: enigma2-plugin-extensions-openwebif_1.5.2-15-gd8b923e0-r8_dm900.ipk
 Source: enigma2-plugin-extensions-openwebif.bb
 Description: Control your receiver with a browser
 OE: enigma2-plugin-extensions-openwebif
@@ -591,8 +591,8 @@ Conflicts: enigma2-plugin-pli-screenposition
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: df9a5aca31cb62f7e946f86fd07e58f0
-SHA256sum: c59bea327343bfdbedbb528a242fad1f2ed874d591b2cb75ab473c64e6fe8101
+MD5Sum: 79134623765ae49184ebcd1a30d3f4cb
+SHA256sum: c87f81ef4482d68bde298172d16a9f0a0d99d4efa8ffb306d47e8657b5b5c634
 Size: 3028
 Filename: enigma2-plugin-extensions-screenposition_2.0+git10+025fa1e-r1_dm900.ipk
 Source: enigma2-plugin-extensions-screenposition.bb
@@ -655,8 +655,8 @@ Depends: aio-grab, python-core
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3fa369d901eca1b35b22efc22954e228
-SHA256sum: 3cb773c55c07732a89b2d3d2337c9db3896bbf88ab208d5b2046e14043e251ef
+MD5Sum: 516d1af3d3f8389b906df21f13f90585
+SHA256sum: 75cf7dae2831125b4268bf29bcdef6451e2d7d7d5fb0efd31df6cb9f96d17ad1
 Size: 9308
 Filename: enigma2-plugin-extensions-shootyourscreen_0.2+git20+d27a15e-r0_dm900.ipk
 Source: enigma2-plugin-extensions-shootyourscreen.bb
@@ -896,9 +896,9 @@ Depends: libc6 (>= 2.35), libstdc++6 (>= 11.3.0), libxcrypt-compat
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 048cb58cf5b4be8fcff098211fa9c217
-SHA256sum: 98299e740996326699bb63c7f701582ed9d0133d66fd4df913d4e99dbd33e610
-Size: 224064
+MD5Sum: 46c0e83e48edfd4666a8ee614643608a
+SHA256sum: acc1da101fe8bbe05003b34ea2f97052aa07d10263bfd38f5f5a834d3d701b1f
+Size: 224084
 Filename: enigma2-plugin-softcams-cccam-v232-arm_2.3.2-r0_dm900.ipk
 Source: enigma2-plugin-softcams-cccam-v232-arm.bb
 Description: CCcam Softcam for DM900 & DM920 Ver2.3.2
@@ -945,9 +945,9 @@ Depends: libc6 (>= 2.35), libstdc++6 (>= 11.3.0), libxcrypt-compat
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: d6b315892e854a867f70583c49809813
-SHA256sum: 0d8ca70cb201f6346bd0ba7a992898140b6e59be7c0469fa90060304dca9f6aa
-Size: 224096
+MD5Sum: ca4244a948f2d359662e216732fd6b67
+SHA256sum: 79023d24ed5297cad1b540e62b32dd4bf3fd0a2cc02af7b019a69324a742e1bf
+Size: 224048
 Filename: enigma2-plugin-softcams-cccam-v238-arm_2.3.8-r0_dm900.ipk
 Source: enigma2-plugin-softcams-cccam-v238-arm.bb
 Description: CCcam Softcam for DM900 & DM920 Ver2.3.8
@@ -961,9 +961,9 @@ Depends: enigma2-plugin-softcams-libcrypto-compat-1.0.2, libc6 (>= 2.35), libgcc
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a9b71cad7411f2ab0d97b775d5319b38
-SHA256sum: 9dd1114406c55f30c89ac367f2f1caa1ff39d7853e627476f272f45fe5ade29d
-Size: 288980
+MD5Sum: 65c404509e7eefce1ac967877d6658f1
+SHA256sum: 3759a2669b2b3a4cbc6c2a894e1aa62b7d3236be426f0f8ea659dbb998aa33d1
+Size: 288976
 Filename: enigma2-plugin-softcams-mgcamd-v135a-arm_1.35a-r0_dm900.ipk
 Source: enigma2-plugin-softcams-mgcamd-v135a-arm.bb
 Description: mgcamd softcam for DM900 & DM920 1.35a
@@ -1105,9 +1105,9 @@ Recommends: gstplayer
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8ea99ce7fbf96a085a26dfa1b9080d58
-SHA256sum: a801daa5782e2479ae684657e58a43f44270f941980968185b97561b0e846787
-Size: 112036
+MD5Sum: 97a3b82d60105e7fc2937a767f34ca10
+SHA256sum: 26fc6de7a7cf690479baf318cdefeebca1e3a4e0cd9171dd29ccfaf787af8ef6
+Size: 111404
 Filename: enigma2-plugin-systemplugins-serviceapp_git170+251520b-r0_dm900.ipk
 Source: enigma2-plugin-systemplugins-serviceapp_0.5.bb
 Description: enigma2-plugin-systemplugins-serviceapp version gitAUTOINC+251520b687-r0
@@ -1156,8 +1156,8 @@ Recommends: glib-networking, gstreamer1.0-plugin-subsink, gstreamer1.0-plugins-b
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c4556b60f98d255a9c2cf71958bf39b3
-SHA256sum: 83d0b8ed87233ff20d32c4eb6f515a926b8e917d513f828b4b77857dd96cd03c
+MD5Sum: 34c9dba0ccc4fc3b291b04ddbeb8a343
+SHA256sum: f815eac451b975c8492aebc04f89f424005f398e156a6e3cb48d81c40b1f0b2d
 Size: 44714
 Filename: enigma2-plugin-systemplugins-servicemp3_git40+aa60f9a-r0_dm900.ipk
 Source: enigma2-plugin-systemplugins-servicemp3.bb

@@ -1868,8 +1868,8 @@ Version: 1+git3807+b6875f0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2c152ea3240ed0586ba8b4268da79254
-SHA256sum: aa3dac2b5032ce328b594e5ce2b9925cbc21d889f39898727f8581d6dc758ab3
+MD5Sum: e7b877f7f9f2e2daa85f8cd56498483f
+SHA256sum: 892c5b333e0d13a88718e9d8fddba1e1f82da7ece3196ff52161be42fd31a458
 Size: 726
 Filename: enigma2-plugin-extensions-e2iplayer-dbg_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
@@ -1886,9 +1886,9 @@ Recommends: cmdwrapper-dev, duktape-dev, exteplayer3-dev, f4mdump-dev, ffmpeg-de
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 60f948fe7027abcd3ec51c3be32ef461
-SHA256sum: 193ec4af2afd12a0c61a0bdd874d0cd7f6f2b5c905e487f6b3f47765e66b1a76
-Size: 866
+MD5Sum: c411a5fcf125c21352b202d0d467f52a
+SHA256sum: bae2b62f5f6d6ce9113f41de6cbdd4eb98cd19c91ca00f0545edf3ed800e9f3d
+Size: 868
 Filename: enigma2-plugin-extensions-e2iplayer-dev_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Development files
@@ -1902,9 +1902,9 @@ Version: 1+git3807+b6875f0-r0
 Section: devel
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9dc96e8ad81c4ad1f5eb2a89893a1cc1
-SHA256sum: 019af90f1fded8e5e390ba1ec33d74c0d349559b14c68dbb6354fe24504c359c
-Size: 793262
+MD5Sum: ad3e5183dd0b33687f6edabb27742730
+SHA256sum: 0fb7ffd41ba318ba1b49db9504bc7b33f3d987cd851e58f176ccca7a0d12722e
+Size: 793338
 Filename: enigma2-plugin-extensions-e2iplayer-src_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2 - Source files
@@ -1919,9 +1919,9 @@ Depends: cmdwrapper, duktape, exteplayer3, f4mdump, ffmpeg, gst-ifdsrc, gstplaye
 Section: multimedia
 Architecture: all
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ed73db78147dbe899769c4dff359e850
-SHA256sum: dedb64c512aedde903c29e8af54a6a079e8f02ac33110267574a8bb9fbee5012
-Size: 3776622
+MD5Sum: ca80c6d224862ca5303f23f71768d354
+SHA256sum: 99cd1c8de8faae0e1255a6be53e59d077717e4392b1841ca22c00f057223e2d4
+Size: 3777034
 Filename: enigma2-plugin-extensions-e2iplayer_1+git3807+b6875f0-r0_all.ipk
 Source: enigma2-plugin-extensions-e2iplayer.bb
 Description: E2i Player for E2
