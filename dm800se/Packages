@@ -293,13 +293,13 @@ Priority: optional
 
 Package: dreambox-dvb-modules-dm800se
 Version: 3.2-20151201-r0
-Depends: dreambox-secondstage-dm800se, kernel-3.2-dm800se, kernel-module-stv0299
+Depends: dreambox-secondstage-dm800se, kernel-3.2-dm800se, kernel-module-stv0299, kernel-vmlinux
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c21d58638c0373f26912a3bebed3786d
-SHA256sum: 11809d9a152d5bc43d46f0021182bb7833e71b284fa223b1309e90c56b140cf6
-Size: 2175554
+MD5Sum: 463675d2fa3265a291b1394f5b13ff72
+SHA256sum: a0e4655a7879ea87d41c9bb20244bfc37f7ac0e6e44bb800c07769d3ce3f0c4a
+Size: 2175150
 Filename: dreambox-dvb-modules-dm800se_3.2-20151201-r0_dm800se.ipk
 Source: dreambox-dvb-modules-dm800se_3.2-20151201.bb
 Description: Hardware drivers for Dreambox
@@ -313,9 +313,9 @@ Depends: mtd-utils
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: dcd26427ce748d6f5756d98e7290d48f
-SHA256sum: d0bd6326384ecf5fe4b8ab635588d80eac1512b9f91c60f17a48cd2f08188c52
-Size: 155340
+MD5Sum: 51866017d9a927bc6bc78a438ddfc6a6
+SHA256sum: e9b1f5f4ff822dd64801c4e49186f52bf7cee70693ce7f2194a8ef9899dd3963
+Size: 187056
 Filename: dreambox-secondstage-dm800se_84-r0_dm800se.ipk
 Source: dreambox-secondstage-dm800se_84.bb
 Description: Dreambox second stage bootloader
@@ -640,12 +640,12 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc582f009cdb748fa9556f0e86315af0
-SHA256sum: a4142e27226aae4864b8121fdfe9e56707abdab26e2310034418defe37963478
+MD5Sum: 4f7ecb9ce4e3140ee9102acc6b2e3ca3
+SHA256sum: b5ec972ee7d3b3087023ba3df4ad49a0a7887379467ede6ac24dd9d8041db80e
 Size: 728
 Filename: enigma2-plugin-softcams-cccam-v209-dbg_2.0.9-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v209.bb
-Description: CCcam Softcam for DM800se Ver2.0.9 - Debugging files
+Description: CCcam Softcam for mipsel Ver2.0.9 - Debugging files
 OE: enigma2-plugin-softcams-cccam-v209
 License: GPL-2.0-or-later
 Priority: optional
@@ -657,12 +657,12 @@ Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libxcrypt-compat-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b8f2b3fee12514ebcbcd740db8b2f976
-SHA256sum: 711617200f43c7455353e2ca53a202946c9ca0456a08f2fe19975c235b5f79a2
-Size: 766
+MD5Sum: 106eeae49c6e348f76c93749fa688842
+SHA256sum: f4931d7569f90ee015fc84f56ec1a71ff1889c37096e2198bb9b0273f36ae34c
+Size: 768
 Filename: enigma2-plugin-softcams-cccam-v209-dev_2.0.9-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v209.bb
-Description: CCcam Softcam for DM800se Ver2.0.9 - Development files
+Description: CCcam Softcam for mipsel Ver2.0.9 - Development files
 OE: enigma2-plugin-softcams-cccam-v209
 License: GPL-2.0-or-later
 Priority: optional
@@ -673,12 +673,12 @@ Depends: libc6 (>= 2.35), libgcc1 (>= 11.3.0), libstdc++6 (>= 11.3.0), libxcrypt
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e112a96d168b541c94da37f84b590b45
-SHA256sum: 89a6556be3217805091bda04803f1a66964969beffa7554d76aff89859ba9fbf
-Size: 294484
+MD5Sum: da0e0c2d47f5fbd02b54c64954b2079e
+SHA256sum: e82107631a79530552e39686377f5e5c114a23e450fd5187e6d9112a349da6c4
+Size: 294482
 Filename: enigma2-plugin-softcams-cccam-v209_2.0.9-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v209.bb
-Description: CCcam Softcam for DM800se Ver2.0.9
+Description: CCcam Softcam for mipsel Ver2.0.9
 OE: enigma2-plugin-softcams-cccam-v209
 License: GPL-2.0-or-later
 Priority: optional
@@ -689,12 +689,12 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 29a462b057dd154a4f4f55b9a5b3712b
-SHA256sum: d0a53fcd02d1b2fe01bc5aacb4d454cbe8bcf72547267a789d63a4c9feb92a40
-Size: 728
+MD5Sum: c6a5368c7d5a19bb101469c3e3f6dbff
+SHA256sum: e4618b19ab0d4d5e6d2b87372f4bca9680f149dc6e2d04c3749882abd140b365
+Size: 726
 Filename: enigma2-plugin-softcams-cccam-v221-dbg_2.2.1-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v221.bb
-Description: CCcam Softcam for DM800se Ver2.2.1 - Debugging files
+Description: CCcam Softcam for mipsel Ver2.2.1 - Debugging files
 OE: enigma2-plugin-softcams-cccam-v221
 License: GPL-2.0-or-later
 Priority: optional
@@ -706,12 +706,12 @@ Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libxcrypt-compat-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9f1368d482487bc4f906789ce04776b3
-SHA256sum: ea67a845c5c83ee557f5def479c803f70fce0be224601bda2df5edb31ae6dcc9
-Size: 766
+MD5Sum: c11d265e086e42fe826812229f164b57
+SHA256sum: 7907153bea98c9b8318d8d83a479f00f422a43ba89d67bbeedfeab048e98ba1e
+Size: 768
 Filename: enigma2-plugin-softcams-cccam-v221-dev_2.2.1-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v221.bb
-Description: CCcam Softcam for DM800se Ver2.2.1 - Development files
+Description: CCcam Softcam for mipsel Ver2.2.1 - Development files
 OE: enigma2-plugin-softcams-cccam-v221
 License: GPL-2.0-or-later
 Priority: optional
@@ -722,12 +722,12 @@ Depends: libc6 (>= 2.35), libgcc1 (>= 11.3.0), libstdc++6 (>= 11.3.0), libxcrypt
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 70413e60f588ca253a1c6c560fccebfb
-SHA256sum: c55b0ab5ce3c355333a228f31d3202cee12d0079f9be8dbd72c8fc8a22349efd
+MD5Sum: 3c2336b825e9ad898da1c270577bb0e5
+SHA256sum: e986f442e3b93c4e01c5753cbc3f052368f935a365d683355b3ad5f772f007a8
 Size: 379690
 Filename: enigma2-plugin-softcams-cccam-v221_2.2.1-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v221.bb
-Description: CCcam Softcam for DM800se Ver2.2.1
+Description: CCcam Softcam for mipsel Ver2.2.1
 OE: enigma2-plugin-softcams-cccam-v221
 License: GPL-2.0-or-later
 Priority: optional
@@ -738,12 +738,12 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9b2c02fd3cbed88643b24fc86b17fed4
-SHA256sum: 3450e7c9e5b0dc8d2c049f59cd24d269c46ffdec7a988db817d6fb2b54af765c
+MD5Sum: c10857bf292baeec548ca3eb35f6d391
+SHA256sum: 2419fa9c06fd69f7aadb540dd4a13b55c317667e327d4d10deeb80931763c018
 Size: 726
 Filename: enigma2-plugin-softcams-cccam-v230-dbg_2.3.0-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v230.bb
-Description: CCcam Softcam for DM800se Ver2.3.0 - Debugging files
+Description: CCcam Softcam for mipsel Ver2.3.0 - Debugging files
 OE: enigma2-plugin-softcams-cccam-v230
 License: GPL-2.0-or-later
 Priority: optional
@@ -755,12 +755,12 @@ Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libxcrypt-compat-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e134be2f83b09d4a177e44374eaa47e5
-SHA256sum: de60bc7d9a47d78b61b3dc3f9572cec77e3973395c879da5cfb72b6a94e856db
-Size: 766
+MD5Sum: 7046e09a80ce11b0dd4286d8aca34a51
+SHA256sum: 0263e99cf89a3212be681a3db02f4a22025b7e3048128441ef493b180952450a
+Size: 768
 Filename: enigma2-plugin-softcams-cccam-v230-dev_2.3.0-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v230.bb
-Description: CCcam Softcam for DM800se Ver2.3.0 - Development files
+Description: CCcam Softcam for mipsel Ver2.3.0 - Development files
 OE: enigma2-plugin-softcams-cccam-v230
 License: GPL-2.0-or-later
 Priority: optional
@@ -771,12 +771,12 @@ Depends: libc6 (>= 2.35), libgcc1 (>= 11.3.0), libstdc++6 (>= 11.3.0), libxcrypt
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 5c6afe591c4f605961507814b9eedea0
-SHA256sum: cf7b82c7ae484e30c826670b751702ca4bac790a3c9e7dba723596c76f1ca1d4
-Size: 383558
+MD5Sum: af61aca27262a1eadaed19366b92174d
+SHA256sum: d0bc0f2d52ebef12acb95f4974f3156f760bc8e276926d55391fa49871e6f646
+Size: 383556
 Filename: enigma2-plugin-softcams-cccam-v230_2.3.0-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v230.bb
-Description: CCcam Softcam for DM800se Ver2.3.0
+Description: CCcam Softcam for mipsel Ver2.3.0
 OE: enigma2-plugin-softcams-cccam-v230
 License: GPL-2.0-or-later
 Priority: optional
@@ -787,12 +787,12 @@ Recommends: glibc-dbg, libgcc-dbg, libstdc++-dbg
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 126921da2f572c826740c5b9c179c486
-SHA256sum: 5e594f464797bae27fd8b9b1313a0c3bcd81b1b871fed65c9dafac52e2bc1bf3
+MD5Sum: a6e6e573264e9c9f8ab36b0626a6b188
+SHA256sum: b8a2b6db724b97b8fb0aac14df2d8fadb060214cb8a39aa8354f5bf8ea494468
 Size: 728
 Filename: enigma2-plugin-softcams-cccam-v232-dbg_2.3.2-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v232.bb
-Description: CCcam Softcam for DM800se Ver2.3.2 - Debugging files
+Description: CCcam Softcam for mipsel Ver2.3.2 - Debugging files
 OE: enigma2-plugin-softcams-cccam-v232
 License: GPL-2.0-or-later
 Priority: optional
@@ -804,12 +804,12 @@ Recommends: glibc-dev, libgcc-dev, libstdc++-dev, libxcrypt-compat-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e42f7ebb7a6ac731ebbff6ecaeaa88e6
-SHA256sum: 52d881edb9fcced88a9972e61b032bbd875d8441d2bb654ab293f341bae75626
-Size: 766
+MD5Sum: 211e5ce82b8162ee48c9a7d2854f63d8
+SHA256sum: 6f3005baebfbb74dfd51cd4379994cbf2d8c23398f535778ea3f2bd31da50fd2
+Size: 768
 Filename: enigma2-plugin-softcams-cccam-v232-dev_2.3.2-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v232.bb
-Description: CCcam Softcam for DM800se Ver2.3.2 - Development files
+Description: CCcam Softcam for mipsel Ver2.3.2 - Development files
 OE: enigma2-plugin-softcams-cccam-v232
 License: GPL-2.0-or-later
 Priority: optional
@@ -820,12 +820,12 @@ Depends: libc6 (>= 2.35), libgcc1 (>= 11.3.0), libstdc++6 (>= 11.3.0), libxcrypt
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 2ba81617204248487a24702601bde89f
-SHA256sum: 956d5f26e0f9455f6734c810b2ac31b67f10fd593dd95a0862e836470e2b60d0
+MD5Sum: 9c73eb5b4eda9b658d9d64eabcc28fbb
+SHA256sum: 0c243224f24769f957e3c94660dbaf7f6fe3d9a89e742216f979f7e842fdc886
 Size: 263342
 Filename: enigma2-plugin-softcams-cccam-v232_2.3.2-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v232.bb
-Description: CCcam Softcam for DM800se Ver2.3.2
+Description: CCcam Softcam for mipsel Ver2.3.2
 OE: enigma2-plugin-softcams-cccam-v232
 License: GPL-2.0-or-later
 Priority: optional
@@ -835,12 +835,12 @@ Version: 2.3.8-r0
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: eb0f07939f3838cf2d547528f1cfd1f6
-SHA256sum: a15eb10361af05c15528015906bb02815bc0b4678b609f25748436e924dc09c9
+MD5Sum: 6c897e2830d53e0b30acea500c2b989f
+SHA256sum: c10008f6de71392e98369c14f946da626158858e5c23ad20c6853a6ebb8244fc
 Size: 700
 Filename: enigma2-plugin-softcams-cccam-v238-dbg_2.3.8-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v238.bb
-Description: CCcam Softcam for DM800se Ver2.3.8 - Debugging files
+Description: CCcam Softcam for mipsel Ver2.3.8 - Debugging files
 OE: enigma2-plugin-softcams-cccam-v238
 License: GPL-2.0-or-later
 Priority: optional
@@ -852,12 +852,12 @@ Recommends: libxcrypt-compat-dev
 Section: devel
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 4949b9975e94e6e8b91fbc7b0c7ffb7c
-SHA256sum: 54684395e9cb93f6bcaf9a4628f753ea5b372f136c8c6038c0f8777da8dbe631
-Size: 750
+MD5Sum: df3ffbd0b778d80a225808b4da5d216c
+SHA256sum: 3c9c45cf61f064155725dcf35846e061a75eed82e14a14d19b3fd5707e32dc9f
+Size: 748
 Filename: enigma2-plugin-softcams-cccam-v238-dev_2.3.8-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v238.bb
-Description: CCcam Softcam for DM800se Ver2.3.8 - Development files
+Description: CCcam Softcam for mipsel Ver2.3.8 - Development files
 OE: enigma2-plugin-softcams-cccam-v238
 License: GPL-2.0-or-later
 Priority: optional
@@ -868,44 +868,44 @@ Depends: libxcrypt-compat
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 14ed23de0a1f5404d7549664c8cb08f7
-SHA256sum: 4e5e600a239fddc5d987fe5b5b33f8d23b17b40f8ec030772c820dd0f42a4534
+MD5Sum: 25fe29060b5f6da03ab2d02beecb2e1c
+SHA256sum: 93aa9083d8cdcffa4e321f22a66faca4def354d02ce93b3505a90cc0f9afce4d
 Size: 392046
 Filename: enigma2-plugin-softcams-cccam-v238_2.3.8-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-cccam-v238.bb
-Description: CCcam Softcam for DM800se Ver2.3.8
+Description: CCcam Softcam for mipsel Ver2.3.8
 OE: enigma2-plugin-softcams-cccam-v238
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-softcams-mgcamd-v135a
 Version: 1.35a-r0
-Depends: enigma2-plugin-softcams-libcrypto-compat, libc6 (>= 2.35), libgcc1 (>= 11.3.0), libxcrypt-compat, libz1 (>= 1.2.11)
+Depends: enigma2-plugin-softcams-libcrypto-compat-1.0.2, libc6 (>= 2.35), libgcc1 (>= 11.3.0), libxcrypt-compat, libz1 (>= 1.2.11)
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fa4afd2ed49533ede84120d0f426fc2a
-SHA256sum: 2906fb5336487da5e5efbd2373c6367b1f94edba08bec6c5e044b1e3d81b3fcc
-Size: 277778
+MD5Sum: 578254a193bca01f83e4634e2094e6e6
+SHA256sum: dbc21f8647992a9527a3c09e8baefb5c22d718bf983eee6bec42535f268966de
+Size: 277786
 Filename: enigma2-plugin-softcams-mgcamd-v135a_1.35a-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-mgcamd-v135a.bb
-Description: mgcamd softcam for dm800se version 1.35a
+Description: mgcamd softcam for mipsel version 1.35a
 OE: enigma2-plugin-softcams-mgcamd-v135a
 License: GPL-2.0-or-later
 Priority: optional
 
 Package: enigma2-plugin-softcams-mgcamd-v145c
 Version: 1.45c-r0
-Depends: enigma2-plugin-softcams-libcrypto-compat, libxcrypt-compat, zlib
+Depends: enigma2-plugin-softcams-libcrypto-compat-1.0.2, libxcrypt-compat, zlib
 Section: base
 Architecture: dm800se
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7bf7af1c803da18ec0d9113533a96074
-SHA256sum: b267d3a0c4c41693ad30e59c68fa69b605e9ade3c6881586bc6d26bcc31d429e
-Size: 323716
+MD5Sum: f1c737a0bc999d9f0f6b5957fb1ae125
+SHA256sum: cba9ff502b657fb3b43c109d61f3e953ca4491fd8604d6610f91e4bff8e08df4
+Size: 323726
 Filename: enigma2-plugin-softcams-mgcamd-v145c_1.45c-r0_dm800se.ipk
 Source: enigma2-plugin-softcams-mgcamd-v145c.bb
-Description: mgcamd softcam for dm800se version 1.45c
+Description: mgcamd softcam for mipsel version 1.45c
 OE: enigma2-plugin-softcams-mgcamd-v145c
 License: GPL-2.0-or-later
 Priority: optional

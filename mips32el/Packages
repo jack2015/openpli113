@@ -38308,6 +38308,58 @@ HomePage: http://gstreamer.freedesktop.org/
 License: LGPL-2.1-or-later
 Priority: optional
 
+Package: gstreamer1.0-libav-dbg
+Version: 1.18.6+git2326+9b31c42-r0
+Recommends: glib-2.0-dbg, glibc-dbg, gstreamer1.0-dbg, libavcodec-dbg, libavfilter-dbg, libavformat-dbg, libavutil-dbg, libgstaudio-1.0-dbg, libgstpbutils-1.0-dbg, libgstvideo-1.0-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: d06639ac6f3852208fa8d0279c3810d7
+SHA256sum: cd8560d211b9cd06402c8970db31db90962ab55e8329e60c5b0fd1f6335c0e99
+Size: 321558
+Filename: gstreamer1.0-libav-dbg_1.18.6+git2326+9b31c42-r0_mips32el.ipk
+Source: gstreamer1.0-libav_git.bb
+Description: Libav-based GStreamer 1.x plugin - Debugging files
+OE: gstreamer1.0-libav
+HomePage: http://gstreamer.freedesktop.org/
+License: LGPL-2.1-or-later
+Priority: optional
+
+Package: gstreamer1.0-libav-dev
+Version: 1.18.6+git2326+9b31c42-r0
+Depends: gstreamer1.0-libav (= 1.18.6+git2326+9b31c42-r0)
+Recommends: ffmpeg-dev, glib-2.0-dev, glibc-dev, gstreamer1.0-dev, gstreamer1.0-plugins-base-dev, libavcodec-dev, libavfilter-dev, libavformat-dev, libavutil-dev, libgstaudio-1.0-dev, libgstpbutils-1.0-dev, libgstvideo-1.0-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ff12e710cd15e6b73a74f64add85a34d
+SHA256sum: e1f8705e1832b70c4101035f35df7f918456dd432705a22782f9f98ac62939e4
+Size: 846
+Filename: gstreamer1.0-libav-dev_1.18.6+git2326+9b31c42-r0_mips32el.ipk
+Source: gstreamer1.0-libav_git.bb
+Description: Libav-based GStreamer 1.x plugin - Development files
+OE: gstreamer1.0-libav
+HomePage: http://gstreamer.freedesktop.org/
+License: LGPL-2.1-or-later
+Priority: optional
+
+Package: gstreamer1.0-libav
+Version: 1.18.6+git2326+9b31c42-r0
+Depends: gstreamer1.0 (>= 1.18.6+git19100+793792d), libavcodec58 (>= 4.4.2), libavfilter7 (>= 4.4.2), libavformat58 (>= 4.4.2), libavutil56 (>= 4.4.2), libc6 (>= 2.35), libglib-2.0-0 (>= 2.72.2), libgstaudio-1.0-0 (>= 1.18.6+git20628+2d5385f), libgstpbutils-1.0-0 (>= 1.18.6+git20628+2d5385f), libgstvideo-1.0-0 (>= 1.18.6+git20628+2d5385f)
+Section: multimedia
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: ab6d1c28874ade434c02919f419adee9
+SHA256sum: af788b52e84482a5deb2ddb84f52aa159de942dd6144970b630f97ad93630c33
+Size: 70752
+Filename: gstreamer1.0-libav_1.18.6+git2326+9b31c42-r0_mips32el.ipk
+Source: gstreamer1.0-libav_git.bb
+Description: Libav-based GStreamer 1.x plugin
+OE: gstreamer1.0-libav
+HomePage: http://gstreamer.freedesktop.org/
+License: LGPL-2.1-or-later
+Priority: optional
+
 Package: gstreamer1.0-locale
 Version: 1.18.6+git19100+793792d-r0
 Section: multimedia
@@ -46336,13 +46388,13 @@ Priority: optional
 
 Package: libads-samba4
 Version: 4.14.13-r3
-Depends: libaddns-samba4 (>= 4.14.13), libc6 (>= 2.35), libcli-cldap-samba4 (>= 4.14.13), libcli-ldap-common-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgse-samba4 (>= 4.14.13), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), liblibsmb-samba4 (>= 4.14.13), libndr-nbt0 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), libtrusts-util-samba4 (>= 4.14.13), samba-common
+Depends: libaddns-samba4 (>= 4.14.13), libc6 (>= 2.35), libcli-cldap-samba4 (>= 4.14.13), libcli-ldap-common-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgse-samba4 (>= 4.14.13), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), liblibsmb-samba4 (>= 4.14.13), libndr-nbt0 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), libtrusts-util-samba4 (>= 4.14.13), samba-common
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a963266c3a37eee66452e363ec32f293
-SHA256sum: ad81bbc3e50dd16a92b1dc4a7a425afbb0d9ac024b766f247556614d1155849c
-Size: 48246
+MD5Sum: 6a131afd888bd66e0a16eddaeb60b5d6
+SHA256sum: ebf7eb18958a52751a7a78a1a2e6dfc016fbef238447d5fbde1b80bf7b8bb854
+Size: 48240
 Filename: libads-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba ads-samba4 library
@@ -48349,41 +48401,41 @@ HomePage: https://github.com/besser82/libxcrypt
 License: LGPL-2.1-only
 Priority: optional
 
-Package: libcrypto-compat-dbg
-Version: 1.0.2-r0
+Package: libcrypto-compat-1.0.2-dbg
+Version: 1.0-r0
 Recommends: glibc-dbg
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 44c93c13b9ed81fcc4f0b324cbae5950
-SHA256sum: 39d6b7af7fc209d74c13b2ded99ae0acb49c6fc8c291e7d7bbacfff97755a1b2
+MD5Sum: 9c86c804775c60a966464a379a8b1421
+SHA256sum: 6ea43ecb789117a312e5fa5ca7433c5b50d3e8be719dabc16ca5144e2fd653e7
 Size: 720
-Filename: libcrypto-compat-dbg_1.0.2-r0_mips32el.ipk
-Source: libcrypto-compat_1.0.2.bb
-Description: Compatibility for packages that link to older libcrypto or libssl - Debugging files
-OE: libcrypto-compat
+Filename: libcrypto-compat-1.0.2-dbg_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.0.2.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.0.2 - Debugging files
+OE: libcrypto-compat-1.0.2
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libcrypto-compat-dev
-Version: 1.0.2-r0
-Depends: libcrypto-compat (= 1.0.2-r0)
+Package: libcrypto-compat-1.0.2-dev
+Version: 1.0-r0
+Depends: libcrypto-compat-1.0.2 (= 1.0-r0)
 Recommends: glibc-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c8a831f4a27083133c0cbd6df68e6fb3
-SHA256sum: c4689895e24094d49e40a5a7b242a6f00b2416325b1d59b47d4da485881bfb66
+MD5Sum: 22ec7c7a517c08db12d94630b40cc3f6
+SHA256sum: f53d8158f1e63b7c59599130553f6101eb4777ab9fd709383e23a53cb4cdb678
 Size: 744
-Filename: libcrypto-compat-dev_1.0.2-r0_mips32el.ipk
-Source: libcrypto-compat_1.0.2.bb
-Description: Compatibility for packages that link to older libcrypto or libssl - Development files
-OE: libcrypto-compat
+Filename: libcrypto-compat-1.0.2-dev_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.0.2.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.0.2 - Development files
+OE: libcrypto-compat-1.0.2
 License: GPL-2.0-or-later
 Priority: optional
 
-Package: libcrypto-compat
-Version: 1.0.2-r0
+Package: libcrypto-compat-1.0.2
+Version: 1.0-r0
 Depends: libc6 (>= 2.35)
 Provides: libcrypto.so.0.9.7, libcrypto.so.0.9.8, libcrypto.so.1.0.0, libcrypto.so.1.0.2, libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libssl.so.0.9.7, libssl.so.0.9.8, libssl.so.1.0.0, libssl.so.1.0.2, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2
 Replaces: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libssl0.9.7, libssl0.9.8, libssl1.0.0, libssl1.0.2
@@ -48391,13 +48443,65 @@ Conflicts: libcrypto0.9.7, libcrypto0.9.8, libcrypto1.0.0, libcrypto1.0.2, libss
 Section: base
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: e62fac91f97878f9af6b7f18711111e1
-SHA256sum: be2d1ea016a85649288bb3503abe3ec0924d1233687ad41770a6d849124c5fda
+MD5Sum: d5b806d57c85870af7a34daf971b00da
+SHA256sum: f528ec5f6e417cabd963c7b2a69ced6d86e5cfe57fecc4989d49302f1703a8ad
 Size: 593940
-Filename: libcrypto-compat_1.0.2-r0_mips32el.ipk
-Source: libcrypto-compat_1.0.2.bb
-Description: Compatibility for packages that link to older libcrypto or libssl
-OE: libcrypto-compat
+Filename: libcrypto-compat-1.0.2_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.0.2.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.0.2
+OE: libcrypto-compat-1.0.2
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcrypto-compat-1.1-dbg
+Version: 1.0-r0
+Recommends: glibc-dbg
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4acb6603dccff4ef9dba1e6f99bbc3d3
+SHA256sum: 4f4f280f5043e634fc5406aa66ee4f9b2689cdf42596700ffde808a6c08b3659
+Size: 720
+Filename: libcrypto-compat-1.1-dbg_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.1.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.1 - Debugging files
+OE: libcrypto-compat-1.1
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcrypto-compat-1.1-dev
+Version: 1.0-r0
+Depends: libcrypto-compat-1.1 (= 1.0-r0)
+Recommends: glibc-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: adf44bfbe4c8850e3e81a0e7f5d6c377
+SHA256sum: d7c1193c8fdb82e372e2308998b885b683b04b20247c06b070cf568d397f1a41
+Size: 744
+Filename: libcrypto-compat-1.1-dev_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.1.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.1 - Development files
+OE: libcrypto-compat-1.1
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: libcrypto-compat-1.1
+Version: 1.0-r0
+Depends: libc6 (>= 2.35)
+Provides: libcrypto.so.1.1, libcrypto1.1, libssl.so.1.1, libssl1.1
+Replaces: libcrypto1.1, libssl1.1
+Conflicts: libcrypto1.1, libssl1.1
+Section: base
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 38147d14623325f6995e9396136c833e
+SHA256sum: 3aee081555e33b4e0607d9f925603e38550905b4fa708355f8da8b2bad2e7299
+Size: 833542
+Filename: libcrypto-compat-1.1_1.0-r0_mips32el.ipk
+Source: libcrypto-compat-1.1.bb
+Description: Compatibility for packages that link to older libcrypto or libssl 1.1
+OE: libcrypto-compat-1.1
 License: GPL-2.0-or-later
 Priority: optional
 
@@ -55918,9 +56022,9 @@ Depends: libc6 (>= 2.35), libgpo-samba4 (>= 4.14.13), libndr1 (>= 4.14.13), libr
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d11c38dfe3bf6499fd607109099074d
-SHA256sum: ede2d4297800327ddc70579b45674dcb445847e87783e6c6386bc8d0f495cfe1
-Size: 7502
+MD5Sum: 94e5844cce3c95840f239f0d10053216
+SHA256sum: 7ccc09338c108928e454de2f699dafb7a45b00fcaa69fe9b15d28a9f9506cbef
+Size: 7498
 Filename: libgpext-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba gpext-samba4 library
@@ -56381,9 +56485,9 @@ Depends: libads-samba4 (>= 4.14.13), libauth-samba4 (>= 4.14.13), libc6 (>= 2.35
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b5b8653c9a3f2b334fcda78c30d4db4d
-SHA256sum: ca09f16a5ecbd3629e7e19d6d804727e7d7eb51f30f2c64688ad70251ea406d7
-Size: 24386
+MD5Sum: e3374964665b753d5dc3bfc68e67c8e6
+SHA256sum: 0142c5ea1a96bdd01f99b4a767560700c4c5fa4907bdd46631e1545d4dcc7989
+Size: 24382
 Filename: libgpo-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba gpo-samba4 library
@@ -56394,13 +56498,13 @@ Priority: optional
 
 Package: libgse-samba4
 Version: 4.14.13-r3
-Depends: libaddns-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-cldap-samba4 (>= 4.14.13), libcli-nbt-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgssapi-krb5-2 (>= 1.17.2), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libndr-nbt0 (>= 4.14.13), libndr1 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), samba-common
+Depends: libaddns-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-cldap-samba4 (>= 4.14.13), libcli-nbt-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgssapi-krb5-2 (>= 1.17.2), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libndr-nbt0 (>= 4.14.13), libndr1 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), samba-common
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a85d1cee3bcb2417bffe662a37966dad
-SHA256sum: e1070ab5582eeebe78503dbd7c829d1dc03e8e14622c4e541e66b5b982005341
-Size: 50808
+MD5Sum: c0b1712e540b97c954319a8a5e5e7290
+SHA256sum: 6543def3883add0a5a836170ba6bd36edd9e2122307766067060b97bc805b5bb
+Size: 50942
 Filename: libgse-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba gse-samba4 library
@@ -57345,12 +57449,12 @@ Priority: optional
 
 Package: libidmap-samba4
 Version: 4.14.13-r3
-Depends: libc6 (>= 2.35), libdbwrap-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-modules-samba4 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsmbldaphelper-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libutil-tdb-samba4 (>= 4.14.13), samba-common
+Depends: libc6 (>= 2.35), libdbwrap-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-modules-samba4 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsmbldaphelper-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libutil-tdb-samba4 (>= 4.14.13), samba-common
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 089247826c02d454e0c1d569813cfdee
-SHA256sum: fd46ed1e1901f9efce467770aaf36de4a56b13c83c1c99530a3b15261a2efd97
+MD5Sum: f412fbccd5a8f6280cb0aad3de8f2782
+SHA256sum: d98e39000e5ee5bb95738a52a4e7f372cd37cd5946998a41f80c0eeb6ac26f16
 Size: 19836
 Filename: libidmap-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
@@ -59161,235 +59265,271 @@ HomePage: http://web.mit.edu/Kerberos/
 License: MIT
 Priority: optional
 
-Package: libldap-2.5-0
-Version: 2.5.12-r0
+Package: libldap-2.4-2
+Version: 2.4.58-r0
 Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libssl3 (>= 3.0.4)
 Provides: openldap
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fb9bf1235ae859b173cbfa5113a20b64
-SHA256sum: 789f4b15d9e9b353dea9aae44dc0504ded294659592ed3271098397b9b21cdd0
-Size: 118780
-Filename: libldap-2.5-0_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: ddf92cae6f5f0534d3287303dc90a605
+SHA256sum: 4f92ec93386d3d7865653babbc3ce1e7e304485e5863c1e50f3ec9b57ed09a72
+Size: 126348
+Filename: libldap-2.4-2_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-backend-dnssrv
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-backend-dnssrv
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-backend-dnssrv
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1f875e0cbb4b11e70cba08641719fe00
-SHA256sum: 5929b960f4df51a8a9baeaf5aa7f59305fefc72b5b560ec15f88be05223d0867
-Size: 4926
-Filename: libldap-2.5-backend-dnssrv_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: b556c3d669427d8cbd398f650981d661
+SHA256sum: 52cdf1b028ba2c813b7b3044ecdbb3cae0e51cba7cd0a1c1e3d51537c6c602f7
+Size: 4908
+Filename: libldap-2.4-backend-dnssrv_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP dnssrv backend
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-backend-ldap
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-backend-ldap
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-backend-ldap
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc02e9895cb86c26e25c2c563c7d8e01
-SHA256sum: 50460207c65038fac9d01af3c9259b62a87f571aa733f3103a2c2a4d5be69f5b
-Size: 44296
-Filename: libldap-2.5-backend-ldap_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 28ee520eecf1518620cbcfb1c20ad9f3
+SHA256sum: 39384586b0cc3d80c6023a4ab0435b0a20f354e1501b9b900a9d9721b38906eb
+Size: 44000
+Filename: libldap-2.4-backend-ldap_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP ldap backend
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-backend-meta
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-backend-meta
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-backend-meta
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 89ec9bc76269d21c3a4d34566f8d7d19
-SHA256sum: 240e6a0d2aa86b6e6e6319ed028bc5a4af73dc6e54f87c2dfa5ea9ea0b36b596
-Size: 44210
-Filename: libldap-2.5-backend-meta_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 35e90e84c7756022e73101ab2f5eb9d7
+SHA256sum: 95b26dc87fc6edca9887a88c1055fec9021a73a31b56fb8d58059ab0c71f335f
+Size: 43802
+Filename: libldap-2.4-backend-meta_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP meta backend
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-backend-null
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-backend-monitor
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
+Provides: openldap-backend-monitor
+Section: libs
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: bf56434696591847bad738deea9c3ade
+SHA256sum: e1626e561d4298fa04b0970db917fe23c884a64b0eabec644d551cb0bb1c0f04
+Size: 26376
+Filename: libldap-2.4-backend-monitor_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
+Description: OpenLDAP monitor backend
+OE: openldap
+HomePage: http://www.OpenLDAP.org/license.html
+License: OpenLDAP
+Priority: optional
+
+Package: libldap-2.4-backend-null
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-backend-null
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: fc9d6c451fdaa6a83ade4a4056909133
-SHA256sum: 3f0a7ec5777223c49f622846f7d2261eb8b77df54b90848ab110c6270f2977db
-Size: 4630
-Filename: libldap-2.5-backend-null_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: ec81669295ec0d6ded0b12b2e43386a8
+SHA256sum: 902961e6601a630aa7fcd99c17038a046e1340feb769553754fef32ec413d024
+Size: 4606
+Filename: libldap-2.4-backend-null_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP null backend
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-backend-passwd
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-backend-passwd
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-backend-passwd
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 97bc55821f7bfc32cb7991bdbf8d1062
-SHA256sum: b1cbc2482a99cb1944fe7b00762827ab7e098592d7ef49a34e0531ea568916b9
-Size: 4970
-Filename: libldap-2.5-backend-passwd_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 0a79990513818be206dbfec7e5212403
+SHA256sum: 7726aad45aceab40d836e545286726ba9c2a6579c89be3d67b6b7bdfcf068df2
+Size: 4892
+Filename: libldap-2.4-backend-passwd_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP passwd backend
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-bin
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libldap-2.5-0 (>= 2.5.12), libuuid1 (>= 2.37.4)
+Package: libldap-2.4-backend-shell
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
+Provides: openldap-backend-shell
+Section: libs
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: aec68df6164e690ae923ebae5725f285
+SHA256sum: 41aa9594030809ea55777dce06f7e37dcc4c3d17ae5e49de09f0345d1000e5c7
+Size: 6378
+Filename: libldap-2.4-backend-shell_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
+Description: OpenLDAP shell backend
+OE: openldap
+HomePage: http://www.OpenLDAP.org/license.html
+License: OpenLDAP
+Priority: optional
+
+Package: libldap-2.4-bin
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libldap-2.4-2 (>= 2.4.58)
 Provides: openldap-bin
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b2635b79d7c44450e1425c8690093d95
-SHA256sum: 93612e096295eb3db75b3ab655fa9edd4a376cd764cf7bc909b2846a23d46f2c
-Size: 76764
-Filename: libldap-2.5-bin_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 518d2baffa54d8faf00c6fefd27ecc1e
+SHA256sum: 6e09fb5225e0fdf09ba3cbae6c6e2ffc0cc0255780cc3de0fdfa61a05996f14a
+Size: 70268
+Filename: libldap-2.4-bin_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-dbg
-Version: 2.5.12-r0
+Package: libldap-2.4-dbg
+Version: 2.4.58-r0
 Provides: openldap-dbg
 Recommends: glibc-dbg, libcrypto-dbg, libltdl-dbg, libssl-dbg, libxcrypt-dbg, util-linux-libuuid-dbg
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 8859fb3965941eb3f1032745807feeae
-SHA256sum: 9cef5f4ad29d60b4258e23c134bd3659257ad6f7a88295b13706371e7f7a5de7
-Size: 3033736
-Filename: libldap-2.5-dbg_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 5fe80307e0648fd6886b312dc1a612de
+SHA256sum: fb9eed7d5ef2274619665b873f64c2235eec3629ac9ab5c15e1151946ed26476
+Size: 2982454
+Filename: libldap-2.4-dbg_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service - Debugging files
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-dev
-Version: 2.5.12-r0
-Depends: libldap-2.5-0 (= 2.5.12-r0), openldap-overlay-proxycache
+Package: libldap-2.4-dev
+Version: 2.4.58-r0
+Depends: libldap-2.4-2 (= 2.4.58-r0), openldap-overlay-proxycache
 Provides: openldap-dev
 Recommends: glibc-dev, initscripts-dev, libcrypto-dev, libltdl-dev, libssl-dev, libtool-dev, libxcrypt-dev, openldap-overlay-proxycache-dev, openssl-dev, update-rc.d-dev, util-linux-dev, util-linux-libuuid-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 9d574c54d3eb808e1b5fe531035f013c
-SHA256sum: bc349cab95c53f92be1161ebc8146f1d26655def138a24df910d42b6649fef10
-Size: 32368
-Filename: libldap-2.5-dev_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: bd1644de4b852a8d614dc2bf742aa1ca
+SHA256sum: ebdc3ad382430ff348986abad642b84042e256d0a0f8c267b26aff08b5f4a53a
+Size: 30530
+Filename: libldap-2.4-dev_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service - Development files
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-doc
-Version: 2.5.12-r0
+Package: libldap-2.4-doc
+Version: 2.4.58-r0
 Provides: openldap-doc
 Section: doc
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 978c5cb85d6e3d817d6e47bbb95074e6
-SHA256sum: 381bb069097213b47453b45850808591eb6b9acad451b21599ee8a9e5e2f898f
-Size: 167758
-Filename: libldap-2.5-doc_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: c83ca3787cc339efd169f1e3d14f480f
+SHA256sum: 3887172b55a4d3823ee3ad95ea3e900c75198644fc12396478cb6ea9dfe0d5fb
+Size: 154818
+Filename: libldap-2.4-doc_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service - Documentation files
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-overlay-proxycache
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.5-0 (>= 2.5.12), libssl3 (>= 3.0.4)
+Package: libldap-2.4-overlay-proxycache
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), libldap-2.4-2 (>= 2.4.58), libssl3 (>= 3.0.4)
 Provides: openldap-overlay-proxycache
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: b667d3227502888dd3879fcb9984a150
-SHA256sum: 85b6a08c05892ac01aebb7d6515235f2dd8ae1798ae2fd98da6a53758c231d29
-Size: 27332
-Filename: libldap-2.5-overlay-proxycache_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: bcf58989b09b0c2910b60a01a09886ad
+SHA256sum: 8de69384e8f12fb1eda47511e0f39a4c809c53a1374a68a458e929819add6876
+Size: 24060
+Filename: libldap-2.4-overlay-proxycache_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-slapd
-Version: 2.5.12-r0
-Depends: libc6 (>= 2.35), libcrypt2 (>= 4.4.28), libldap-2.5-0 (>= 2.5.12), libltdl7 (>= 2.4.7), libuuid1 (>= 2.37.4)
+Package: libldap-2.4-slapd
+Version: 2.4.58-r0
+Depends: libc6 (>= 2.35), libcrypt2 (>= 4.4.28), libldap-2.4-2 (>= 2.4.58), libltdl7 (>= 2.4.7), libuuid1 (>= 2.37.4)
 Provides: openldap-slapd
 Recommends: update-rc.d
 Section: libs
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7d93d697293e9e0e0da01a339b832812
-SHA256sum: e73bff2c6e104edc0fe41180dd1c886314935f7e7e029c83ca0bfca531b42507
-Size: 505828
-Filename: libldap-2.5-slapd_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: a731a99f9e04ae139f6a1133057b7d34
+SHA256sum: 2884a0de4bdfe147941dbb3ac72113a1c97c0059a1a892cbad00ac6db78bad6e
+Size: 443624
+Filename: libldap-2.4-slapd_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
 License: OpenLDAP
 Priority: optional
 
-Package: libldap-2.5-staticdev
-Version: 2.5.12-r0
-Depends: libldap-2.5-dev (= 2.5.12-r0)
+Package: libldap-2.4-staticdev
+Version: 2.4.58-r0
+Depends: libldap-2.4-dev (= 2.4.58-r0)
 Provides: openldap-staticdev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 24087839c7d06a4032a6263e3c318f4b
-SHA256sum: bd6d0146402ac0782b5b62c4aebbc95608b30bac274eb884718b22f9fe76b1f1
-Size: 610680
-Filename: libldap-2.5-staticdev_2.5.12-r0_mips32el.ipk
-Source: openldap_2.5.12.bb
+MD5Sum: 293d7e658573c82f786c9e48b42c2102
+SHA256sum: 2a471eb6f2646fd26de52c558a205bd0bdcd864023b1204331ffee79098e7a29
+Size: 661768
+Filename: libldap-2.4-staticdev_2.4.58-r0_mips32el.ipk
+Source: openldap_2.4.58.bb
 Description: OpenLDAP Directory Service - Development files (Static Libraries)
 OE: openldap
 HomePage: http://www.OpenLDAP.org/license.html
@@ -60522,9 +60662,9 @@ Depends: libads-samba4 (>= 4.14.13), libc6 (>= 2.35), libcom-err2 (>= 1.46.5), l
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: ff44ac154e6b028f1c436576be876e6c
-SHA256sum: 47274188c49cd223aa7537e3e9e57a3ce7a171e5c1b475d0796fd270c1867935
-Size: 5816
+MD5Sum: 3e1d1d173ebba71551a1a22bfafc74e7
+SHA256sum: cab9c842fb9f1b7ca3e72b81f755995fccf651c0c60cad564835e863007f9eab
+Size: 5812
 Filename: libnet-keytab-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba net-keytab-samba4 library
@@ -60540,9 +60680,9 @@ Provides: libnetapi
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: f10dc26c5fc454144c8f33da54cb4434
-SHA256sum: e32cc5c7db99b7819d92a07e1fce87f739d1320bcbe7b6a34a2aebec8603efec
-Size: 76908
+MD5Sum: 5dcdf5e6417c7ba0619f19c3c96448ef
+SHA256sum: d6d9d0f92ad10f61990b18f41101bc410853af46235bb66c7423d0f571fb7dce
+Size: 76800
 Filename: libnetapi0_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba netapi library
@@ -63825,14 +63965,14 @@ Priority: optional
 
 Package: libsmbconf0
 Version: 4.14.13-r3
-Depends: libc6 (>= 2.35), libcap (>= 2.63), libcharset3-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libinterfaces-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libmessages-dgm-samba4 (>= 4.14.13), libmessages-util-samba4 (>= 4.14.13), libndr1 (>= 4.14.13), libnsl3 (>= 2.0.0), libreplace-samba4 (>= 4.14.13), libsamba-cluster-support-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libserver-role-samba4 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtalloc-report-printf-samba4 (>= 4.14.13), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-setid-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libz1 (>= 1.2.11), samba-common
+Depends: libc6 (>= 2.35), libcap (>= 2.63), libcharset3-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libinterfaces-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libmessages-dgm-samba4 (>= 4.14.13), libmessages-util-samba4 (>= 4.14.13), libndr1 (>= 4.14.13), libnsl3 (>= 2.0.0), libreplace-samba4 (>= 4.14.13), libsamba-cluster-support-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libserver-role-samba4 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtalloc-report-printf-samba4 (>= 4.14.13), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-setid-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libz1 (>= 1.2.11), samba-common
 Provides: libsmbconf
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 1e4cf2083c345c0e0aa1419b79203997
-SHA256sum: 64414981381b226d9f94f0393dac89c5790bce27e08ddf056a14ba564a340486
-Size: 163564
+MD5Sum: 63da23752a618f52fa775fc62c6ff8dc
+SHA256sum: 47d37645b0503e79ff40eea510d452286ad3f0f119e6fe8078a2a08353a788a8
+Size: 162936
 Filename: libsmbconf0_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba smbconf library
@@ -63843,13 +63983,13 @@ Priority: optional
 
 Package: libsmbd-base-samba4
 Version: 4.14.13-r3
-Depends: libads-samba4 (>= 4.14.13), libauth-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-smb-common-samba4 (>= 4.14.13), libcli-spoolss-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libcommon-auth-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libdcerpc-binding0 (>= 4.14.13), libdcerpc-samba-samba4 (>= 4.14.13), libdcerpc-server-core0 (>= 4.14.13), libdfs-server-ad-samba4 (>= 4.14.13), libevents-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgse-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libkrb5samba-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), liblibcli-lsa3-samba4 (>= 4.14.13), liblibsmb-samba4 (>= 4.14.13), libmessages-dgm-samba4 (>= 4.14.13), libmessages-util-samba4 (>= 4.14.13), libmsrpc3-samba4 (>= 4.14.13), libndr-samba-samba4 (>= 4.14.13), libndr-samba4 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libnetapi0 (>= 4.14.13), libnpa-tstream-samba4 (>= 4.14.13), libprinting-migrate-samba4 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-cluster-support-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-modules-samba4 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsamdb0 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-setid-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), samba-common
+Depends: libads-samba4 (>= 4.14.13), libauth-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libavahi-client3 (>= 0.8), libavahi-common3 (>= 0.8), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-smb-common-samba4 (>= 4.14.13), libcli-spoolss-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libcommon-auth-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libdcerpc-binding0 (>= 4.14.13), libdcerpc-samba-samba4 (>= 4.14.13), libdcerpc-server-core0 (>= 4.14.13), libdfs-server-ad-samba4 (>= 4.14.13), libevents-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgse-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libkrb5samba-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), liblibcli-lsa3-samba4 (>= 4.14.13), liblibsmb-samba4 (>= 4.14.13), libmessages-dgm-samba4 (>= 4.14.13), libmessages-util-samba4 (>= 4.14.13), libmsrpc3-samba4 (>= 4.14.13), libndr-samba-samba4 (>= 4.14.13), libndr-samba4 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libnetapi0 (>= 4.14.13), libnpa-tstream-samba4 (>= 4.14.13), libprinting-migrate-samba4 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-cluster-support-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-modules-samba4 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsamdb0 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-setid-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), samba-common
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 6b7802f416d830bd1af58b15a0108fb4
-SHA256sum: 5ac2bfd5f41f72f144b8a2e16a5e0496da8c2ca111646df64ced3d43dc94b30b
-Size: 751328
+MD5Sum: e1a3f6afe9fd4faf9d97676b730e4f95
+SHA256sum: 27ded7f576f8c963f55b3f4f311e1a697e30f8f658dce99750f2dea1507d212e
+Size: 751526
 Filename: libsmbd-base-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba smbd-base-samba4 library
@@ -63877,14 +64017,14 @@ Priority: optional
 
 Package: libsmbldap2
 Version: 4.14.13-r3
-Depends: libc6 (>= 2.35), libldap-2.5-0 (>= 2.5.12), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtevent0 (>= 0.10.2), samba-common
+Depends: libc6 (>= 2.35), libldap-2.4-2 (>= 2.4.58), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtevent0 (>= 0.10.2), samba-common
 Provides: libsmbldap
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: be1a261364cb891b69cbcd590f2ab8a7
-SHA256sum: 2c140f4dd7907c6ef47406e167318d03b53233178f0ec60fa3e15c9168c4714d
-Size: 14032
+MD5Sum: e3497b6b4cbdaa69969964e07f2a1f83
+SHA256sum: 596a939e6d182f42dab87cd0e80e2f60a605709a29aafecd14f8fbcce0654fe2
+Size: 13988
 Filename: libsmbldap2_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba smbldap library
@@ -63895,13 +64035,13 @@ Priority: optional
 
 Package: libsmbldaphelper-samba4
 Version: 4.14.13-r3
-Depends: libc6 (>= 2.35), libldap-2.5-0 (>= 2.5.12), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), samba-common
+Depends: libc6 (>= 2.35), libldap-2.4-2 (>= 2.4.58), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), samba-common
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 73ecfc23e1306010742b2cc6a3f2e563
-SHA256sum: 4b199a7aaa0994a5f69c3c5c9379e35a927bcf6fc2ad2ca769c2bcf917f95fea
-Size: 5970
+MD5Sum: a4349394bdda9684b525f63b0416444f
+SHA256sum: 4469449fd4b78f667cffde0663f625b34c694c9acecfe63e89777cf2973a9cad
+Size: 5950
 Filename: libsmbldaphelper-samba4_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba smbldaphelper-samba4 library
@@ -80239,14 +80379,14 @@ License: BSD-2-Clause
 Priority: optional
 
 Package: openpli-bootlogo-dbg
-Version: 20220712-r0
+Version: 20220713-r0
 Section: devel
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: 10d81a43a0c83dd4ab7ac1c94c0322bf
-SHA256sum: 769e59e23188d640a3b652b32b705d0799be3dbc7101f01d86290dc7ec99dbbf
+MD5Sum: 720f5dfecb6dc3c7b0e8aec1222372da
+SHA256sum: e5d76bad7f90d5eab5db1f07408d5ca76c9b1ce43cf20e86530bc06764e1d5e9
 Size: 656
-Filename: openpli-bootlogo-dbg_20220712-r0_mips32el.ipk
+Filename: openpli-bootlogo-dbg_20220713-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Debugging files
 OE: openpli-bootlogo
@@ -80254,16 +80394,16 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo-dev
-Version: 20220712-r0
-Depends: openpli-bootlogo (= 20220712-r0)
+Version: 20220713-r0
+Depends: openpli-bootlogo (= 20220713-r0)
 Recommends: initscripts-dev, showiframe-dev, update-rc.d-dev
 Section: devel
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: 2efa583533a6d00b5962c6392dddd67a
-SHA256sum: 31a4e328ef83eb690948fa323ce770ffd0c50208d22a23d15afe44e812ec3de3
+MD5Sum: b629a54e3b04cc3c5feba17770bbaaf2
+SHA256sum: 5a2740830d855cf4d7a6762f9bf8c22fc6f6e7a242feb2f0502e6eeddfe82fa1
 Size: 726
-Filename: openpli-bootlogo-dev_20220712-r0_mips32el.ipk
+Filename: openpli-bootlogo-dev_20220713-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0 - Development files
 OE: openpli-bootlogo
@@ -80271,21 +80411,53 @@ License: CC-BY-NC-ND-4.0
 Priority: required
 
 Package: openpli-bootlogo
-Version: 20220712-r0
+Version: 20220713-r0
 Depends: showiframe
 Recommends: update-rc.d
 Section: base
 Architecture: mips32el
 Maintainer: PLi team
-MD5Sum: c8bba2239b375635131b7f5bd7600457
-SHA256sum: b7a13b1d777c1ccc3313889a8a2e7a57b279005b52df762225a1659710ed57de
-Size: 221830
-Filename: openpli-bootlogo_20220712-r0_mips32el.ipk
+MD5Sum: 372206fe7dfb4625e90df256a181fdfd
+SHA256sum: e4d0abbc8fbbf4c64f3f2ac3738392180d314c732be1ca6dc34d1258417765e9
+Size: 221828
+Filename: openpli-bootlogo_20220713-r0_mips32el.ipk
 Source: openpli-bootlogo.bb
 Description: openpli-bootlogo version 1.0-r0
 OE: openpli-bootlogo
 License: CC-BY-NC-ND-4.0
 Priority: required
+
+Package: openpli-enigma2-feed-dbg
+Version: 1.0-r0
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: 4632c9f5a289be2289fea647d48a8a46
+SHA256sum: a57790b68e7d767f6125fea6ca73803df9345c32642d4e11e73a12b76ce59fbd
+Size: 676
+Filename: openpli-enigma2-feed-dbg_1.0-r0_mips32el.ipk
+Source: openpli-enigma2-feed.bb
+Description: openpli-enigma2-feed version 1.0-r0 - Debugging files
+OE: openpli-enigma2-feed
+License: GPL-2.0-or-later
+Priority: optional
+
+Package: openpli-enigma2-feed-dev
+Version: 1.0-r0
+Depends: openpli-enigma2-feed (= 1.0-r0)
+Recommends: astra-sm-dev, autofs-dev, autossh-dev, ccid-dev, channelsettings-enigma2-meta-dev, ctorrent-dev, cups-dev, davfs2-dev, diffutils-dev, djmount-dev, dosfstools-dev, dreambox-buildimage-dev, dvb-apps-dev, dvb-usb-drivers-meta-dev, dvblast-dev, dvbsnoop-dev, dvdfs-dev, easy-rsa-dev, edid-decode-dev, enigma2-plugin-drivers-exfat-dev, enigma2-plugin-drivers-ntfs-3g-dev, enigma2-plugin-drivers-usbserial-dev, enigma2-plugin-extensions-autobouquets-dev, enigma2-plugin-extensions-backupsuite-dev, enigma2-plugin-extensions-blurayplayer-dev, enigma2-plugin-extensions-cacheflush-dev, enigma2-plugin-extensions-e2iplayer-dev, enigma2-plugin-extensions-epgimport-dev, enigma2-plugin-extensions-filecommander-dev, enigma2-plugin-extensions-flashexpander-dev, enigma2-plugin-extensions-fontinfo-dev, enigma2-plugin-extensions-historyzapselector-dev, enigma2-plugin-extensions-keyadder-dev, enigma2-plugin-extensions-managerautofs-dev, enigma2-plugin-extensions-modifyplifullhd-dev, enigma2-plugin-extensions-moviemanager-dev, enigma2-plugin-extensions-openmultiboot-dev, enigma2-plugin-extensions-openwebif-dev, enigma2-plugin-extensions-oscamstatus-dev, enigma2-plugin-extensions-refreshbouquet-dev, enigma2-plugin-extensions-subssupport-dev, enigma2-plugin-extensions-tmbd-dev, enigma2-plugin-extensions-vcs-dev, enigma2-plugin-extensions-vpnmanager-dev, enigma2-plugin-extensions-weathermsn-dev, enigma2-plugin-extensions-weatherplugin-dev, enigma2-plugin-extensions-xmodem-dev, enigma2-plugin-extensions-xstreamity-dev, enigma2-plugin-extensions-youtube-dev, enigma2-plugin-security-firewall-dev, enigma2-plugin-skins-metropolishd-dev, enigma2-plugin-skins-mx-black-dev, enigma2-plugin-skins-mx-hq10-dev, enigma2-plugin-skins-mx-hq7-dev, enigma2-plugin-skins-mx-hq9w-dev, enigma2-plugin-skins-mx-titaniumc-dev, enigma2-plugin-skins-pli-fullhd-dev, enigma2-plugin-skins-pli-fullnighthd-dev, enigma2-plugin-skins-pli-hd-dev, enigma2-plugin-skins-pli-hd1-dev, enigma2-plugin-skins-pli-hd2-dev, enigma2-plugin-skins-simple-gray-dev, enigma2-plugin-softcams-cccam-v209-dev, enigma2-plugin-softcams-cccam-v221-dev, enigma2-plugin-softcams-cccam-v230-dev, enigma2-plugin-softcams-cccam-v232-dev, enigma2-plugin-softcams-cccam-v238-dev, enigma2-plugin-softcams-libcrypto-compat-1.0.2-dev, enigma2-plugin-softcams-libcrypto-compat-1.1-dev, enigma2-plugin-softcams-mgcamd-v135a-dev, enigma2-plugin-softcams-mgcamd-v145c-dev, enigma2-plugin-softcams-oscam-dev, enigma2-plugin-systemplugins-exteplayer3-dev, enigma2-plugin-systemplugins-extnumberzap-dev, enigma2-plugin-systemplugins-hrtunerproxy-dev, enigma2-plugin-systemplugins-misplslcnscan-dev, enigma2-plugin-systemplugins-mountmanager-dev, enigma2-plugin-systemplugins-newvirtualkeyboard-dev, enigma2-plugin-systemplugins-serviceapp-dev, enigma2-plugin-systemplugins-servicemp3-dev, enigma2-plugin-systemplugins-signalfinder-dev, enigma2-plugin-systemplugins-terrestrialscan-dev, enigma2-plugins-dev, evtest-dev, exfat-utils-dev, exteplayer3-dev, gdb-dev, grep-dev, gstplayer-dev, hddtemp-dev, htop-dev, inadyn-mt-dev, inetutils-dev, iperf3-dev, iproute2-dev, iputils-dev, joe-dev, less-dev, libbluray-dev, libudfread-dev, mc-dev, mediainfo-dev, minisatip-dev, mtd-utils-dev, mtools-dev, nano-dev, net-tools-dev, network-usb-drivers-meta-dev, ntfs-3g-dev, ntp-dev, openpli-enigma2-image-dev, openresolv-dev, openssh-dev, openvpn-dev, packagegroup-openplugins-dev, parted-dev, picocom-dev, ppp-dev, procps-dev, pv-dev, pyload-dev, python-beautifulsoup4-dev, python-js2py-dev, python-lxml-dev, python-mechanize-dev, python-ntplib-dev, python-pycryptodome-dev, python-requests-dev, python-websocket-client-dev, python-youtube-dl-dev, rsync-dev, rtl-sdr-dev, rtorrent-dev, sabnzbd-dev, samba-dev, satipclient-dev, screen-dev, sed-dev, smartmontools-dev, smbnetfs-dev, sshpass-dev, strace-dev, tcpdump-dev, tmux-dev, transmission-dev, udpxy-dev, usb-modeswitch-data-dev, usb-modeswitch-dev, ushare-dev, v4l-utils-dev, vim-dev, wscan-dev, xfsprogs-dev, yafc-dev, zeroconf-dev, zip-dev, zsh-dev
+Section: devel
+Architecture: mips32el
+Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
+MD5Sum: a75e2922b4c3b7d2b64640185e4fb184
+SHA256sum: ca5783bd9cfdea40cc37306623f1c918b9d5df6b99cfa731fbfdfdec51f1552a
+Size: 1742
+Filename: openpli-enigma2-feed-dev_1.0-r0_mips32el.ipk
+Source: openpli-enigma2-feed.bb
+Description: openpli-enigma2-feed version 1.0-r0 - Development files
+OE: openpli-enigma2-feed
+License: GPL-2.0-or-later
+Priority: optional
 
 Package: openssh-dbg
 Version: 8.9p1-r0
@@ -80647,87 +80819,87 @@ License: Apache-2.0
 Priority: optional
 
 Package: openvpn-dbg
-Version: 2.5.6-r0
+Version: 2.4.3-r0
 Recommends: glibc-dbg, libcrypto-dbg, libpam-dbg, libssl-dbg, lzo-dbg
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3abaf1e2042b99f93106b444ff25c052
-SHA256sum: 8a22990cb68df8f6a23c333441e98d7893077db59089b982a41dbb0455828ae9
-Size: 1303666
-Filename: openvpn-dbg_2.5.6-r0_mips32el.ipk
-Source: openvpn_2.5.6.bb
+MD5Sum: 57a30a044914cd9f0b9de6c59f384a30
+SHA256sum: 83ff4b7af273e5ec541bfa872c45d0342d82db47ad3799b990e9b6a18bb7df9e
+Size: 1139804
+Filename: openvpn-dbg_2.4.3-r0_mips32el.ipk
+Source: openvpn_2.4.3.bb
 Description: A full-featured SSL VPN solution via tun device. - Debugging files
 OE: openvpn
-HomePage: https://openvpn.net/
+HomePage: http://openvpn.sourceforge.net
 License: GPL-2.0-only
 Priority: optional
 
 Package: openvpn-dev
-Version: 2.5.6-r0
-Depends: openvpn (= 2.5.6-r0)
+Version: 2.4.3-r0
+Depends: openvpn (= 2.4.3-r0)
 Recommends: glibc-dev, initscripts-dev, iproute2-dev, libcrypto-dev, libpam-dev, libssl-dev, lzo-dev, openssl-dev, update-rc.d-dev
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a19225e3cefbb98d6bbabad0eee9ec64
-SHA256sum: ae305b5f3ea67878bb156ddae7f01a29e94bf3bc5e20b8f6219ab0c7ce73cb38
-Size: 8306
-Filename: openvpn-dev_2.5.6-r0_mips32el.ipk
-Source: openvpn_2.5.6.bb
+MD5Sum: 6fdc870d52cfbce3d5012f6f70f5c127
+SHA256sum: 314702882f891ee3b27389e25279f47f44029b2de8a32ee4392766d80f453689
+Size: 7848
+Filename: openvpn-dev_2.4.3-r0_mips32el.ipk
+Source: openvpn_2.4.3.bb
 Description: A full-featured SSL VPN solution via tun device. - Development files
 OE: openvpn
-HomePage: https://openvpn.net/
+HomePage: http://openvpn.sourceforge.net
 License: GPL-2.0-only
 Priority: optional
 
 Package: openvpn-doc
-Version: 2.5.6-r0
+Version: 2.4.3-r0
 Section: doc
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 7ca42d5487bfeac79aa9170e6bbf4c12
-SHA256sum: c553c1697872642631448d801f2402124012b1dbe5b4dda8c76920185ceca678
-Size: 106232
-Filename: openvpn-doc_2.5.6-r0_mips32el.ipk
-Source: openvpn_2.5.6.bb
+MD5Sum: f84827a55c491238533758fa43561179
+SHA256sum: c29322e4e5b7835405edf0d9746faa087e812727492c22d13a73d3df604e4c3b
+Size: 83406
+Filename: openvpn-doc_2.4.3-r0_mips32el.ipk
+Source: openvpn_2.4.3.bb
 Description: A full-featured SSL VPN solution via tun device. - Documentation files
 OE: openvpn
-HomePage: https://openvpn.net/
+HomePage: http://openvpn.sourceforge.net
 License: GPL-2.0-only
 Priority: optional
 
 Package: openvpn-sample
-Version: 2.5.6-r0
+Version: 2.4.3-r0
 Section: net
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 354a190dd454bc4ec5debd274c2c03b7
-SHA256sum: 7569619bbf29d6b8bca9b652a63a90232d6247c2866d6cd895c2b7cc2d9177a9
-Size: 25688
-Filename: openvpn-sample_2.5.6-r0_mips32el.ipk
-Source: openvpn_2.5.6.bb
+MD5Sum: c9f312eb6b5b48d0c88aa4a7912275c0
+SHA256sum: 1d69fd75b041ab7fe219f8c7aabcafc92c80891c5f896a7b2c606a498756a45c
+Size: 25788
+Filename: openvpn-sample_2.4.3-r0_mips32el.ipk
+Source: openvpn_2.4.3.bb
 Description: A full-featured SSL VPN solution via tun device.
 OE: openvpn
-HomePage: https://openvpn.net/
+HomePage: http://openvpn.sourceforge.net
 License: GPL-2.0-only
 Priority: optional
 
 Package: openvpn
-Version: 2.5.6-r0
+Version: 2.4.3-r0
 Depends: libc6 (>= 2.35), libcrypto3 (>= 3.0.4), liblzo2-2 (>= 2.10), libpam (>= 1.5.2), libssl3 (>= 3.0.4)
 Recommends: kernel-module-tun, update-rc.d
 Section: net
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 03f1bfb8b2bcd46717304b9171dab4ac
-SHA256sum: ae378a076eedac876091f2997639f3a6bc3dc1c926b50478887e3b5d649ab76e
-Size: 237816
-Filename: openvpn_2.5.6-r0_mips32el.ipk
-Source: openvpn_2.5.6.bb
+MD5Sum: 016694a093488ef3cff9ddd4d56d77de
+SHA256sum: b594b20d9495211f76e2b60be6426203ba7468e693a1b7adf9c969453ac39793
+Size: 212838
+Filename: openvpn_2.4.3-r0_mips32el.ipk
+Source: openvpn_2.4.3.bb
 Description: A full-featured SSL VPN solution via tun device.
 OE: openvpn
-HomePage: https://openvpn.net/
+HomePage: http://openvpn.sourceforge.net
 License: GPL-2.0-only
 Priority: optional
 
@@ -102967,9 +103139,9 @@ Recommends: dbus-lib-dbg, glib-2.0-dbg, glibc-dbg, gnutls-dbg, jansson-dbg, liba
 Section: devel
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 57ea2f4d794029e6870f6074b7bfd64c
-SHA256sum: 290a84eba4f1e8727d529ba33c50b5135d037993175245eb5543ff95b1b7e7f2
-Size: 36291262
+MD5Sum: 76891a1a1e4540c23e78ff4838d95e91
+SHA256sum: 2430d41bd300a7d7aea11bc95d54b6783a79c993928344a3bbc960a581042a27
+Size: 36304382
 Filename: samba-dbg_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: samba version 4.14.13-r3 - Debugging files
@@ -103031,13 +103203,13 @@ Priority: optional
 
 Package: samba-pdb-ldapsam
 Version: 4.14.13-r3
-Depends: libc6 (>= 2.35), libcliauth-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsmbldaphelper-samba4 (>= 4.14.13), libtalloc (>= 2.3.3)
+Depends: libc6 (>= 2.35), libcliauth-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libreplace-samba4 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsmbldaphelper-samba4 (>= 4.14.13), libtalloc (>= 2.3.3)
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 466d2ce405c777b6ecf2bea7a433c160
-SHA256sum: a2d1f33b926a448de5571466ed6bbcbd1351a1cb44a95eaab54a27446aee4cf1
-Size: 37430
+MD5Sum: 3c9b17eb488c16fbf0bbc0e2e2c3f7ed
+SHA256sum: 246c0beb44016b98aacdae04572634b75f7e3a3b21098c710384318b4602048a
+Size: 37406
 Filename: samba-pdb-ldapsam_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: Samba ldapsam password backend
@@ -103103,9 +103275,9 @@ Depends: libads-samba4 (>= 4.14.13), libauth-unix-token-samba4 (>= 4.14.13), lib
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: c81f07f5a76df2c433b43d6549ea5f1f
-SHA256sum: 25c7320e6f4d9b6c6ff82f4778a04639c8a10043eb11812a1a9cbfe89c26ac8a
-Size: 1723696
+MD5Sum: 5218994ed33792414c5b5d224e45e8e2
+SHA256sum: c5be6d3bae5b5024299515701f103e091966f8fa77a8fa15c9ed6730efce91b7
+Size: 1723712
 Filename: samba-python3_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: samba version 4.14.13-r3
@@ -103167,14 +103339,14 @@ Priority: optional
 
 Package: samba
 Version: 4.14.13-r3
-Depends: libaddns-samba4 (>= 4.14.13), libads-samba4 (>= 4.14.13), libasn1util-samba4 (>= 4.14.13), libauth-samba4 (>= 4.14.13), libauth4-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-cldap-samba4 (>= 4.14.13), libcli-ldap-common-samba4 (>= 4.14.13), libcli-ldap-samba4 (>= 4.14.13), libcli-nbt-samba4 (>= 4.14.13), libcli-smb-common-samba4 (>= 4.14.13), libcli-spoolss-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libclidns-samba4 (>= 4.14.13), libcluster-samba4 (>= 4.14.13), libcmdline-contexts-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libcommon-auth-samba4 (>= 4.14.13), libctdb-event-client-samba4 (>= 4.14.13), libdb-glue-samba4 (>= 4.14.13), libdbus-1-3 (>= 1.14.0), libdbwrap-samba4 (>= 4.14.13), libdcerpc-binding0 (>= 4.14.13), libdcerpc-samba-samba4 (>= 4.14.13), libdcerpc-server-core0 (>= 4.14.13), libdcerpc-server0 (>= 4.14.13), libdcerpc0 (>= 4.14.13), libdnsserver-common-samba4 (>= 4.14.13), libdsdb-garbage-collect-tombstones-samba4 (>= 4.14.13), libdsdb-module-samba4 (>= 4.14.13), libevents-samba4 (>= 4.14.13), libflag-mapping-samba4 (>= 4.14.13), libform5 (>= 6.3+20220423), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgpo-samba4 (>= 4.14.13), libgse-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libkadm5srv-mit11 (>= 1.17.2), libkdb5-9 (>= 1.17.2), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libldb (>= 2.3.3), libldbsamba-samba4 (>= 4.14.13), liblibcli-lsa3-samba4 (>= 4.14.13), liblibsmb-samba4 (>= 4.14.13), libmessages-dgm-samba4 (>= 4.14.13), libmessaging-samba4 (>= 4.14.13), libmessaging-send-samba4 (>= 4.14.13), libmsghdr-samba4 (>= 4.14.13), libmsrpc3-samba4 (>= 4.14.13), libncurses5 (>= 6.3+20220423), libndr-krb5pac0 (>= 4.14.13), libndr-nbt0 (>= 4.14.13), libndr-samba-samba4 (>= 4.14.13), libndr-samba4 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libnet-keytab-samba4 (>= 4.14.13), libnetapi0 (>= 4.14.13), libnetif-samba4 (>= 4.14.13), libpanel5 (>= 6.3+20220423), libpopt-samba3-cmdline-samba4 (>= 4.14.13), libpopt-samba3-samba4 (>= 4.14.13), libpopt0 (>= 1.18), libposix-eadb-samba4 (>= 4.14.13), libprinting-migrate-samba4 (>= 4.14.13), libprocess-model-samba4 (>= 4.14.13), libreadline8 (>= 8.1.2), libregistry-samba4 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsamdb-common-samba4 (>= 4.14.13), libsamdb0 (>= 4.14.13), libscavenge-dns-records-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libservice-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-base-samba4 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtalloc-report-samba4 (>= 4.14.13), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libtinfo5 (>= 6.3+20220423), libtirpc3 (>= 1.3.2), libtrusts-util-samba4 (>= 4.14.13), libutil-cmdline-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), libxattr-tdb-samba4 (>= 4.14.13), python3, samba-base, samba-dsdb-modules, samba-python3
+Depends: libaddns-samba4 (>= 4.14.13), libads-samba4 (>= 4.14.13), libasn1util-samba4 (>= 4.14.13), libauth-samba4 (>= 4.14.13), libauth4-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcharset3-samba4 (>= 4.14.13), libcli-cldap-samba4 (>= 4.14.13), libcli-ldap-common-samba4 (>= 4.14.13), libcli-ldap-samba4 (>= 4.14.13), libcli-nbt-samba4 (>= 4.14.13), libcli-smb-common-samba4 (>= 4.14.13), libcli-spoolss-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libclidns-samba4 (>= 4.14.13), libcluster-samba4 (>= 4.14.13), libcmdline-contexts-samba4 (>= 4.14.13), libcom-err2 (>= 1.46.5), libcommon-auth-samba4 (>= 4.14.13), libctdb-event-client-samba4 (>= 4.14.13), libdb-glue-samba4 (>= 4.14.13), libdbus-1-3 (>= 1.14.0), libdbwrap-samba4 (>= 4.14.13), libdcerpc-binding0 (>= 4.14.13), libdcerpc-samba-samba4 (>= 4.14.13), libdcerpc-server-core0 (>= 4.14.13), libdcerpc-server0 (>= 4.14.13), libdcerpc0 (>= 4.14.13), libdnsserver-common-samba4 (>= 4.14.13), libdsdb-garbage-collect-tombstones-samba4 (>= 4.14.13), libdsdb-module-samba4 (>= 4.14.13), libevents-samba4 (>= 4.14.13), libflag-mapping-samba4 (>= 4.14.13), libform5 (>= 6.3+20220423), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgpo-samba4 (>= 4.14.13), libgse-samba4 (>= 4.14.13), libiov-buf-samba4 (>= 4.14.13), libkadm5srv-mit11 (>= 1.17.2), libkdb5-9 (>= 1.17.2), libkrb5-3 (>= 1.17.2), libkrb5samba-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libldb (>= 2.3.3), libldbsamba-samba4 (>= 4.14.13), liblibcli-lsa3-samba4 (>= 4.14.13), liblibsmb-samba4 (>= 4.14.13), libmessages-dgm-samba4 (>= 4.14.13), libmessaging-samba4 (>= 4.14.13), libmessaging-send-samba4 (>= 4.14.13), libmsghdr-samba4 (>= 4.14.13), libmsrpc3-samba4 (>= 4.14.13), libncurses5 (>= 6.3+20220423), libndr-krb5pac0 (>= 4.14.13), libndr-nbt0 (>= 4.14.13), libndr-samba-samba4 (>= 4.14.13), libndr-samba4 (>= 4.14.13), libndr-standard0 (>= 4.14.13), libndr1 (>= 4.14.13), libnet-keytab-samba4 (>= 4.14.13), libnetapi0 (>= 4.14.13), libnetif-samba4 (>= 4.14.13), libpanel5 (>= 6.3+20220423), libpopt-samba3-cmdline-samba4 (>= 4.14.13), libpopt-samba3-samba4 (>= 4.14.13), libpopt0 (>= 1.18), libposix-eadb-samba4 (>= 4.14.13), libprinting-migrate-samba4 (>= 4.14.13), libprocess-model-samba4 (>= 4.14.13), libreadline8 (>= 8.1.2), libregistry-samba4 (>= 4.14.13), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsamdb-common-samba4 (>= 4.14.13), libsamdb0 (>= 4.14.13), libscavenge-dns-records-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libserver-id-db-samba4 (>= 4.14.13), libservice-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbd-base-samba4 (>= 4.14.13), libsmbd-shim-samba4 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libsocket-blocking-samba4 (>= 4.14.13), libsys-rw-samba4 (>= 4.14.13), libtalloc (>= 2.3.3), libtalloc-report-samba4 (>= 4.14.13), libtdb-wrap-samba4 (>= 4.14.13), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libtime-basic-samba4 (>= 4.14.13), libtinfo5 (>= 6.3+20220423), libtirpc3 (>= 1.3.2), libtrusts-util-samba4 (>= 4.14.13), libutil-cmdline-samba4 (>= 4.14.13), libutil-reg-samba4 (>= 4.14.13), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), libxattr-tdb-samba4 (>= 4.14.13), python3, samba-base, samba-dsdb-modules, samba-python3
 Provides: pam-pluginsmbpass
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 3351a2fb61847d5e96a99813daea2cad
-SHA256sum: 74d349ad4d773d3cde6fa59af25d6c634dd640c23c12c2f8d12aa65b557a6631
-Size: 1746972
+MD5Sum: 9982e8f3f857d3f329140a928a256edf
+SHA256sum: 4ec113925e74c600870490dad9b6dc655cba38f675c24b3771475fcaae568fc6
+Size: 1747652
 Filename: samba_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: samba version 4.14.13-r3
@@ -108263,13 +108435,13 @@ Priority: optional
 
 Package: winbind
 Version: 4.14.13-r3
-Depends: libads-samba4 (>= 4.14.13), libasn1util-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcli-ldap-common-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgse-samba4 (>= 4.14.13), libidmap-samba4 (>= 4.14.13), libldap-2.5-0 (>= 2.5.12), libndr-samba4 (>= 4.14.13), libndr1 (>= 4.14.13), libnss-info-samba4 (>= 4.14.13), libpopt-samba3-samba4 (>= 4.14.13), libpopt0 (>= 1.18), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), libwinbind-client-samba4 (>= 4.14.13)
+Depends: libads-samba4 (>= 4.14.13), libasn1util-samba4 (>= 4.14.13), libauthkrb5-samba4 (>= 4.14.13), libc6 (>= 2.35), libcli-ldap-common-samba4 (>= 4.14.13), libcliauth-samba4 (>= 4.14.13), libdbwrap-samba4 (>= 4.14.13), libgenrand-samba4 (>= 4.14.13), libgensec-samba4 (>= 4.14.13), libgnutls30 (>= 3.7.4), libgse-samba4 (>= 4.14.13), libidmap-samba4 (>= 4.14.13), libldap-2.4-2 (>= 2.4.58), libndr-samba4 (>= 4.14.13), libndr1 (>= 4.14.13), libnss-info-samba4 (>= 4.14.13), libpopt-samba3-samba4 (>= 4.14.13), libpopt0 (>= 1.18), libreplace-samba4 (>= 4.14.13), libsamba-credentials1 (>= 4.14.13), libsamba-debug-samba4 (>= 4.14.13), libsamba-errors1 (>= 4.14.13), libsamba-hostconfig0 (>= 4.14.13), libsamba-passdb0 (>= 4.14.13), libsamba-security-samba4 (>= 4.14.13), libsamba-sockets-samba4 (>= 4.14.13), libsamba-util0 (>= 4.14.13), libsamba3-util-samba4 (>= 4.14.13), libsecrets3-samba4 (>= 4.14.13), libsmbconf0 (>= 4.14.13), libsmbldap2 (>= 4.14.13), libtalloc (>= 2.3.3), libtdb1 (>= 1.4.3), libtevent-util0 (>= 4.14.13), libtevent0 (>= 0.10.2), libutil-tdb-samba4 (>= 4.14.13), libwbclient0 (>= 4.14.13), libwinbind-client-samba4 (>= 4.14.13)
 Section: console/network
 Architecture: mips32el
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: a2029d9dbf6af76871cbb612fe0366dd
-SHA256sum: dcb2a228e907123d1fd9c42fe08bb78f7c49049dbb5ece258d924f2df5458495
-Size: 93356
+MD5Sum: 8d697598830f238984f2499ff96e51a1
+SHA256sum: eaed33bbbc0e98eb30a53bf6a711f4c88bb10cc34b104b9217f8188048a3b501
+Size: 93302
 Filename: winbind_4.14.13-r3_mips32el.ipk
 Source: samba_4.14.13.bb
 Description: samba version 4.14.13-r3

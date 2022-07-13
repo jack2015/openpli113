@@ -957,13 +957,13 @@ Priority: optional
 
 Package: enigma2-plugin-softcams-mgcamd-v135a-arm
 Version: 1.35a-r0
-Depends: enigma2-plugin-softcams-libcrypto-compat, libc6 (>= 2.35), libgcc1 (>= 11.3.0), libxcrypt-compat, libz1 (>= 1.2.11)
+Depends: enigma2-plugin-softcams-libcrypto-compat-1.0.2, libc6 (>= 2.35), libgcc1 (>= 11.3.0), libxcrypt-compat, libz1 (>= 1.2.11)
 Section: base
 Architecture: dm900
 Maintainer: OE-Core Developers <openembedded-core@lists.openembedded.org>
-MD5Sum: 80d50931bf4d636535f70e09ddd50fd5
-SHA256sum: c2c0d8dfff306a826e9ea22874430d39f1bddeebaa460a2f805ef71f96435def
-Size: 288974
+MD5Sum: a9b71cad7411f2ab0d97b775d5319b38
+SHA256sum: 9dd1114406c55f30c89ac367f2f1caa1ff39d7853e627476f272f45fe5ade29d
+Size: 288980
 Filename: enigma2-plugin-softcams-mgcamd-v135a-arm_1.35a-r0_dm900.ipk
 Source: enigma2-plugin-softcams-mgcamd-v135a-arm.bb
 Description: mgcamd softcam for DM900 & DM920 1.35a
